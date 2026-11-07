@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – видалення трекерів із посилань"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "Видаляє з посилань параметри відстеження, як-от utm_source, fbclid і gclid. Швидко, приватно, безкоштовно – без входу."
+  },
+  "actionTitle": {
+    "message": "Linkwash – очищення посилань"
+  },
+  "commandCopy": {
+    "message": "Скопіювати чисте посилання на поточну сторінку"
+  },
+  "brandTagline": {
+    "message": "Чисті посилання. Нуль трекерів."
+  },
+  "statusProtected": {
+    "message": "Захищено"
+  },
+  "statusPaused": {
+    "message": "На паузі"
+  },
+  "statusSitePaused": {
+    "message": "На паузі для цього сайту"
+  },
+  "toggleProtection": {
+    "message": "Увімкнути або вимкнути захист"
+  },
+  "heroRemovedOnPage": {
+    "message": "Видалено трекерів на цій сторінці"
+  },
+  "heroNothingYet": {
+    "message": "На цій сторінці трекерів поки немає"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash не працює на сторінках браузера"
+  },
+  "heroPaused": {
+    "message": "Захист призупинено"
+  },
+  "moreCount": {
+    "message": "ще $1"
+  },
+  "siteCleanToggle": {
+    "message": "Очищати посилання на цьому сайті"
+  },
+  "siteRulesFor": {
+    "message": "Діють особливі правила для $1"
+  },
+  "siteGeneralRules": {
+    "message": "Діє стандартний захист"
+  },
+  "siteIsPaused": {
+    "message": "Посилання на цьому сайті не очищаються"
+  },
+  "siteUnavailable": {
+    "message": "Сторінка браузера"
+  },
+  "statLinks": {
+    "message": "Очищено посилань"
+  },
+  "statTrackers": {
+    "message": "Видалено трекерів"
+  },
+  "statRedirects": {
+    "message": "Пропущено редиректів"
+  },
+  "actionCopyClean": {
+    "message": "Копіювати чисте посилання"
+  },
+  "actionCopied": {
+    "message": "Скопійовано!"
+  },
+  "actionSettings": {
+    "message": "Налаштування"
+  },
+  "footerPrivacy": {
+    "message": "Працює офлайн · Без акаунта · Без збору даних"
+  },
+  "menuCopyCleanLink": {
+    "message": "Копіювати чисте посилання"
+  },
+  "menuOpenCleanLink": {
+    "message": "Відкрити чисте посилання в новій вкладці"
+  },
+  "menuCopyCleanPage": {
+    "message": "Копіювати чисте посилання на сторінку"
+  },
+  "navOverview": {
+    "message": "Огляд"
+  },
+  "navProtection": {
+    "message": "Захист"
+  },
+  "navSites": {
+    "message": "Сайти на паузі"
+  },
+  "navCustom": {
+    "message": "Власні параметри"
+  },
+  "navTools": {
+    "message": "Очищення посилань"
+  },
+  "navGeneral": {
+    "message": "Загальні"
+  },
+  "navAbout": {
+    "message": "Про розширення"
+  },
+  "welcomeTitle": {
+    "message": "Вітаємо в Linkwash"
+  },
+  "welcomeText": {
+    "message": "Ви під захистом. Відтепер Linkwash видаляє трекери з кожного посилання, яке ви відкриваєте. Нічого не треба налаштовувати, і акаунт не потрібен."
+  },
+  "welcomeDismiss": {
+    "message": "Зрозуміло"
+  },
+  "overviewTitle": {
+    "message": "Огляд"
+  },
+  "overviewSubtitle": {
+    "message": "Що Linkwash зробив для вас із $1."
+  },
+  "topTrackers": {
+    "message": "Найчастіше видалені трекери"
+  },
+  "topSites": {
+    "message": "Сайти з найбільшою кількістю трекерів"
+  },
+  "byCategory": {
+    "message": "За категоріями"
+  },
+  "emptyStats": {
+    "message": "Поки що нічого. Відкрийте посилання з трекерами, і воно з’явиться тут."
+  },
+  "resetStats": {
+    "message": "Скинути статистику"
+  },
+  "resetStatsConfirm": {
+    "message": "Скинути всю статистику? Цю дію не можна скасувати."
+  },
+  "protectionTitle": {
+    "message": "Захист"
+  },
+  "protectionSubtitle": {
+    "message": "Виберіть, які види трекерів видаляє Linkwash. Зміни застосовуються одразу."
+  },
+  "cat_marketing_name": {
+    "message": "Мітки кампаній"
+  },
+  "cat_marketing_desc": {
+    "message": "UTM, Matomo та інші параметри кампаній, які повідомляють сайту, звідки ви прийшли."
+  },
+  "cat_ads_name": {
+    "message": "ID рекламних кліків"
+  },
+  "cat_ads_desc": {
+    "message": "Ідентифікатори кліків від Google, Meta, Microsoft, TikTok, X та інших рекламних мереж."
+  },
+  "cat_email_name": {
+    "message": "Пошта й розсилки"
+  },
+  "cat_email_desc": {
+    "message": "Коди відстеження від Mailchimp, HubSpot, Marketo та інших сервісів розсилок."
+  },
+  "cat_analytics_name": {
+    "message": "Аналітика"
+  },
+  "cat_analytics_desc": {
+    "message": "Міжсайтові ідентифікатори аналітики від Google Analytics, Webtrekk, Piano та інших."
+  },
+  "cat_social_name": {
+    "message": "Соцмережі"
+  },
+  "cat_social_desc": {
+    "message": "Трекери поширень і переходів у YouTube, Instagram, X, TikTok, Facebook, Reddit, LinkedIn, Spotify та інших сервісах."
+  },
+  "cat_shopping_name": {
+    "message": "Покупки"
+  },
+  "cat_shopping_desc": {
+    "message": "Відстеження на Amazon, eBay, AliExpress, Temu, Etsy, Booking.com та в інших магазинах."
+  },
+  "cat_search_name": {
+    "message": "Пошукові системи"
+  },
+  "cat_search_desc": {
+    "message": "Трекери сеансів і кліків у Google та Bing."
+  },
+  "cat_affiliate_name": {
+    "message": "Партнерські мітки"
+  },
+  "cat_affiliate_desc": {
+    "message": "Реферальні мітки, за які автори отримують комісію. За замовчуванням вимкнено, щоб улюблені автори й далі заробляли."
+  },
+  "cat_custom_name": {
+    "message": "Власні параметри"
+  },
+  "paramsCount": {
+    "message": "Параметрів: $1"
+  },
+  "showParams": {
+    "message": "Показати параметри"
+  },
+  "hideParams": {
+    "message": "Сховати параметри"
+  },
+  "globalParams": {
+    "message": "Усі сайти"
+  },
+  "featuresTitle": {
+    "message": "Додатковий захист"
+  },
+  "featUnwrapName": {
+    "message": "Пропускати сторінки редиректу"
+  },
+  "featUnwrapDesc": {
+    "message": "Одразу відкриває справжню адресу обгорнутих посилань із Google, Facebook, YouTube, Reddit та інших сервісів, щоб сторінка редиректу не могла записати ваш клік."
+  },
+  "featPingsName": {
+    "message": "Блокувати пінги кліків"
+  },
+  "featPingsDesc": {
+    "message": "Видаляє приховані пінги, які повідомляють сайту, на яке посилання ви натиснули."
+  },
+  "featBadgeName": {
+    "message": "Показувати лічильник на значку"
+  },
+  "featBadgeDesc": {
+    "message": "Показує, скільки трекерів видалено на поточній сторінці."
+  },
+  "sitesTitle": {
+    "message": "Сайти на паузі"
+  },
+  "sitesSubtitle": {
+    "message": "Linkwash не змінює посилання на цих сайтах. Додайте сюди сайт, якщо він перестав правильно працювати."
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "Додати сайт"
+  },
+  "sitesEmpty": {
+    "message": "Немає сайтів на паузі. Linkwash очищає посилання всюди."
+  },
+  "sitesInvalid": {
+    "message": "Введіть правильний домен, наприклад example.com."
+  },
+  "remove": {
+    "message": "Видалити"
+  },
+  "customTitle": {
+    "message": "Власні параметри"
+  },
+  "customSubtitle": {
+    "message": "Додайте параметри, які Linkwash має видаляти на всіх сайтах. Кілька назв розділяйте пробілами або комами."
+  },
+  "customPlaceholder": {
+    "message": "наприклад, campaign_ref"
+  },
+  "customAdd": {
+    "message": "Додати"
+  },
+  "customEmpty": {
+    "message": "Ви ще не додали жодного параметра."
+  },
+  "customInvalid": {
+    "message": "Назви параметрів не можуть містити пробіли та символи & = # ?"
+  },
+  "customExists": {
+    "message": "Цей параметр уже є в списку."
+  },
+  "toolsTitle": {
+    "message": "Очищення посилань"
+  },
+  "toolsSubtitle": {
+    "message": "Вставте посилання, щоб побачити, які трекери видалить Linkwash, а потім скопіюйте чисту версію."
+  },
+  "toolsPlaceholder": {
+    "message": "Вставте посилання сюди…"
+  },
+  "toolsResult": {
+    "message": "Чисте посилання"
+  },
+  "toolsRemoved": {
+    "message": "Видалено"
+  },
+  "toolsNone": {
+    "message": "Це посилання вже чисте."
+  },
+  "toolsInvalid": {
+    "message": "Це не схоже на веб-посилання (http або https)."
+  },
+  "toolsCopy": {
+    "message": "Копіювати"
+  },
+  "toolsUnwrapped": {
+    "message": "Редирект пропущено"
+  },
+  "toastCopied": {
+    "message": "Чисте посилання скопійовано"
+  },
+  "shortcutTitle": {
+    "message": "Комбінація клавіш"
+  },
+  "shortcutDesc": {
+    "message": "Натисніть $1 на будь-якій сторінці, щоб скопіювати її чисте посилання."
+  },
+  "shortcutNone": {
+    "message": "Комбінацію клавіш не задано. Її можна вибрати в налаштуваннях швидких клавіш Chrome."
+  },
+  "shortcutChange": {
+    "message": "Змінити"
+  },
+  "generalTitle": {
+    "message": "Загальні"
+  },
+  "languageLabel": {
+    "message": "Мова"
+  },
+  "languageAuto": {
+    "message": "Мова браузера"
+  },
+  "themeLabel": {
+    "message": "Тема"
+  },
+  "themeAuto": {
+    "message": "Системна"
+  },
+  "themeLight": {
+    "message": "Світла"
+  },
+  "themeDark": {
+    "message": "Темна"
+  },
+  "backupTitle": {
+    "message": "Резервна копія налаштувань"
+  },
+  "backupDesc": {
+    "message": "Збережіть налаштування у файл або завантажте їх на іншому комп’ютері."
+  },
+  "backupExport": {
+    "message": "Експорт"
+  },
+  "backupImport": {
+    "message": "Імпорт"
+  },
+  "backupImported": {
+    "message": "Налаштування імпортовано"
+  },
+  "backupInvalid": {
+    "message": "Цей файл не є резервною копією Linkwash."
+  },
+  "resetSettings": {
+    "message": "Налаштування за замовчуванням"
+  },
+  "resetSettingsDesc": {
+    "message": "Скидає всі налаштування. Сайти на паузі та власні параметри буде видалено."
+  },
+  "resetSettingsBtn": {
+    "message": "Скинути"
+  },
+  "resetSettingsConfirm": {
+    "message": "Повернути всі налаштування за замовчуванням? Сайти на паузі та ваші параметри буде видалено."
+  },
+  "aboutTitle": {
+    "message": "Про розширення"
+  },
+  "aboutVersion": {
+    "message": "Версія $1"
+  },
+  "aboutText": {
+    "message": "Linkwash видаляє параметри відстеження з посилань ще до завантаження сторінки. Розширення безкоштовне, з відкритим кодом і працює повністю на вашому пристрої."
+  },
+  "aboutFactLocal": {
+    "message": "Без акаунта, серверів і збору даних – усе залишається у вашому браузері."
+  },
+  "aboutRules": {
+    "message": "Параметрів відстеження: $1, особливі правила для популярних сайтів: $2"
+  },
+  "aboutFactFree": {
+    "message": "Безкоштовно, з відкритим кодом і без реклами."
+  },
+  "aboutSource": {
+    "message": "Вихідний код"
+  },
+  "aboutPrivacy": {
+    "message": "Політика конфіденційності"
+  },
+  "aboutReport": {
+    "message": "Повідомити про несправний сайт"
+  }
+}

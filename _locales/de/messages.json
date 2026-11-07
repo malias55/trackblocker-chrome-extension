@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – Tracker-Entferner für saubere Links"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "Entfernt Tracking-Parameter wie utm_source, fbclid und gclid aus jedem Link. Schnell, privat, kostenlos – ohne Anmeldung."
+  },
+  "actionTitle": {
+    "message": "Linkwash – Links bereinigen"
+  },
+  "commandCopy": {
+    "message": "Sauberen Link der aktuellen Seite kopieren"
+  },
+  "brandTagline": {
+    "message": "Saubere Links. Null Tracker."
+  },
+  "statusProtected": {
+    "message": "Geschützt"
+  },
+  "statusPaused": {
+    "message": "Pausiert"
+  },
+  "statusSitePaused": {
+    "message": "Auf dieser Seite pausiert"
+  },
+  "toggleProtection": {
+    "message": "Schutz ein- oder ausschalten"
+  },
+  "heroRemovedOnPage": {
+    "message": "Tracker auf dieser Seite entfernt"
+  },
+  "heroNothingYet": {
+    "message": "Bisher keine Tracker auf dieser Seite"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash funktioniert nicht auf Browserseiten"
+  },
+  "heroPaused": {
+    "message": "Schutz ist pausiert"
+  },
+  "moreCount": {
+    "message": "+$1 weitere"
+  },
+  "siteCleanToggle": {
+    "message": "Links auf dieser Seite bereinigen"
+  },
+  "siteRulesFor": {
+    "message": "Extra-Regeln für $1 aktiv"
+  },
+  "siteGeneralRules": {
+    "message": "Standardschutz aktiv"
+  },
+  "siteIsPaused": {
+    "message": "Links auf dieser Seite werden nicht bereinigt"
+  },
+  "siteUnavailable": {
+    "message": "Browserseite"
+  },
+  "statLinks": {
+    "message": "Links bereinigt"
+  },
+  "statTrackers": {
+    "message": "Tracker entfernt"
+  },
+  "statRedirects": {
+    "message": "Umleitungen übersprungen"
+  },
+  "actionCopyClean": {
+    "message": "Sauberen Link kopieren"
+  },
+  "actionCopied": {
+    "message": "Kopiert!"
+  },
+  "actionSettings": {
+    "message": "Einstellungen"
+  },
+  "footerPrivacy": {
+    "message": "Funktioniert offline · Kein Konto · Keine Datensammlung"
+  },
+  "menuCopyCleanLink": {
+    "message": "Sauberen Link kopieren"
+  },
+  "menuOpenCleanLink": {
+    "message": "Sauberen Link in neuem Tab öffnen"
+  },
+  "menuCopyCleanPage": {
+    "message": "Sauberen Link dieser Seite kopieren"
+  },
+  "navOverview": {
+    "message": "Übersicht"
+  },
+  "navProtection": {
+    "message": "Schutz"
+  },
+  "navSites": {
+    "message": "Pausierte Seiten"
+  },
+  "navCustom": {
+    "message": "Eigene Parameter"
+  },
+  "navTools": {
+    "message": "Link-Reiniger"
+  },
+  "navGeneral": {
+    "message": "Allgemein"
+  },
+  "navAbout": {
+    "message": "Über"
+  },
+  "welcomeTitle": {
+    "message": "Willkommen bei Linkwash"
+  },
+  "welcomeText": {
+    "message": "Du bist geschützt. Ab sofort entfernt Linkwash Tracker aus jedem Link, den du öffnest. Du musst nichts einrichten und brauchst kein Konto."
+  },
+  "welcomeDismiss": {
+    "message": "Alles klar"
+  },
+  "overviewTitle": {
+    "message": "Übersicht"
+  },
+  "overviewSubtitle": {
+    "message": "Was Linkwash seit dem $1 für dich getan hat."
+  },
+  "topTrackers": {
+    "message": "Am häufigsten entfernte Tracker"
+  },
+  "topSites": {
+    "message": "Seiten mit den meisten Trackern"
+  },
+  "byCategory": {
+    "message": "Nach Kategorie"
+  },
+  "emptyStats": {
+    "message": "Noch nichts da. Öffne einen Link mit Trackern, dann erscheint er hier."
+  },
+  "resetStats": {
+    "message": "Statistik zurücksetzen"
+  },
+  "resetStatsConfirm": {
+    "message": "Gesamte Statistik zurücksetzen? Das lässt sich nicht rückgängig machen."
+  },
+  "protectionTitle": {
+    "message": "Schutz"
+  },
+  "protectionSubtitle": {
+    "message": "Wähle, welche Arten von Trackern Linkwash entfernt. Änderungen gelten sofort."
+  },
+  "cat_marketing_name": {
+    "message": "Kampagnen-Tags"
+  },
+  "cat_marketing_desc": {
+    "message": "UTM-, Matomo- und andere Kampagnenparameter, die einer Website verraten, woher du kommst."
+  },
+  "cat_ads_name": {
+    "message": "Werbe-Klick-IDs"
+  },
+  "cat_ads_desc": {
+    "message": "Klick-Kennungen von Google, Meta, Microsoft, TikTok, X und anderen Werbenetzwerken."
+  },
+  "cat_email_name": {
+    "message": "E-Mail & Newsletter"
+  },
+  "cat_email_desc": {
+    "message": "Tracking-Codes von Mailchimp, HubSpot, Marketo und anderen E-Mail-Tools."
+  },
+  "cat_analytics_name": {
+    "message": "Analyse"
+  },
+  "cat_analytics_desc": {
+    "message": "Seitenübergreifende Analyse-IDs von Google Analytics, Webtrekk, Piano und anderen."
+  },
+  "cat_social_name": {
+    "message": "Soziale Medien"
+  },
+  "cat_social_desc": {
+    "message": "Teilen- und Empfehlungs-Tracker auf YouTube, Instagram, X, TikTok, Facebook, Reddit, LinkedIn, Spotify und mehr."
+  },
+  "cat_shopping_name": {
+    "message": "Shopping"
+  },
+  "cat_shopping_desc": {
+    "message": "Tracking bei Amazon, eBay, AliExpress, Temu, Etsy, Booking.com und anderen Shops."
+  },
+  "cat_search_name": {
+    "message": "Suchmaschinen"
+  },
+  "cat_search_desc": {
+    "message": "Sitzungs- und Klick-Tracker bei Google und Bing."
+  },
+  "cat_affiliate_name": {
+    "message": "Affiliate-Tags"
+  },
+  "cat_affiliate_desc": {
+    "message": "Empfehlungs-Tags, mit denen Creator eine Provision verdienen. Standardmäßig aus, damit deine Lieblings-Creator weiter bezahlt werden."
+  },
+  "cat_custom_name": {
+    "message": "Eigene Parameter"
+  },
+  "paramsCount": {
+    "message": "$1 Parameter"
+  },
+  "showParams": {
+    "message": "Parameter anzeigen"
+  },
+  "hideParams": {
+    "message": "Parameter ausblenden"
+  },
+  "globalParams": {
+    "message": "Alle Websites"
+  },
+  "featuresTitle": {
+    "message": "Zusätzlicher Schutz"
+  },
+  "featUnwrapName": {
+    "message": "Weiterleitungsseiten überspringen"
+  },
+  "featUnwrapDesc": {
+    "message": "Öffnet bei verpackten Links von Google, Facebook, YouTube, Reddit und anderen direkt das echte Ziel, damit die Weiterleitungsseite deinen Klick nicht erfassen kann."
+  },
+  "featPingsName": {
+    "message": "Klick-Pings blockieren"
+  },
+  "featPingsDesc": {
+    "message": "Entfernt versteckte Pings, die einer Website verraten, welchen Link du angeklickt hast."
+  },
+  "featBadgeName": {
+    "message": "Zähler am Symbol anzeigen"
+  },
+  "featBadgeDesc": {
+    "message": "Zeigt, wie viele Tracker auf der aktuellen Seite entfernt wurden."
+  },
+  "sitesTitle": {
+    "message": "Pausierte Seiten"
+  },
+  "sitesSubtitle": {
+    "message": "Auf diesen Seiten ändert Linkwash keine Links. Füge eine Seite hinzu, wenn sie nicht mehr richtig funktioniert."
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "Seite hinzufügen"
+  },
+  "sitesEmpty": {
+    "message": "Keine pausierten Seiten. Linkwash bereinigt Links überall."
+  },
+  "sitesInvalid": {
+    "message": "Gib eine gültige Domain ein, zum Beispiel example.com."
+  },
+  "remove": {
+    "message": "Entfernen"
+  },
+  "customTitle": {
+    "message": "Eigene Parameter"
+  },
+  "customSubtitle": {
+    "message": "Füge Parameter hinzu, die Linkwash auf jeder Website entfernen soll. Trenne mehrere Namen mit Leerzeichen oder Kommas."
+  },
+  "customPlaceholder": {
+    "message": "z. B. campaign_ref"
+  },
+  "customAdd": {
+    "message": "Hinzufügen"
+  },
+  "customEmpty": {
+    "message": "Du hast noch keine Parameter hinzugefügt."
+  },
+  "customInvalid": {
+    "message": "Parameternamen dürfen keine Leerzeichen oder die Zeichen & = # ? enthalten"
+  },
+  "customExists": {
+    "message": "Dieser Parameter steht schon auf der Liste."
+  },
+  "toolsTitle": {
+    "message": "Link-Reiniger"
+  },
+  "toolsSubtitle": {
+    "message": "Füge einen Link ein, um zu sehen, welche Tracker Linkwash entfernt, und kopiere dann die saubere Version."
+  },
+  "toolsPlaceholder": {
+    "message": "Link hier einfügen…"
+  },
+  "toolsResult": {
+    "message": "Sauberer Link"
+  },
+  "toolsRemoved": {
+    "message": "Entfernt"
+  },
+  "toolsNone": {
+    "message": "Dieser Link ist bereits sauber."
+  },
+  "toolsInvalid": {
+    "message": "Das sieht nicht nach einem Weblink aus (http oder https)."
+  },
+  "toolsCopy": {
+    "message": "Kopieren"
+  },
+  "toolsUnwrapped": {
+    "message": "Weiterleitung übersprungen"
+  },
+  "toastCopied": {
+    "message": "Sauberer Link kopiert"
+  },
+  "shortcutTitle": {
+    "message": "Tastenkürzel"
+  },
+  "shortcutDesc": {
+    "message": "Drücke $1 auf einer beliebigen Seite, um ihren sauberen Link zu kopieren."
+  },
+  "shortcutNone": {
+    "message": "Kein Tastenkürzel festgelegt. Du kannst eins in den Tastenkürzel-Einstellungen von Chrome wählen."
+  },
+  "shortcutChange": {
+    "message": "Ändern"
+  },
+  "generalTitle": {
+    "message": "Allgemein"
+  },
+  "languageLabel": {
+    "message": "Sprache"
+  },
+  "languageAuto": {
+    "message": "Browsersprache"
+  },
+  "themeLabel": {
+    "message": "Darstellung"
+  },
+  "themeAuto": {
+    "message": "System"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "backupTitle": {
+    "message": "Einstellungen sichern"
+  },
+  "backupDesc": {
+    "message": "Speichere deine Einstellungen in einer Datei oder lade sie auf einem anderen Computer."
+  },
+  "backupExport": {
+    "message": "Exportieren"
+  },
+  "backupImport": {
+    "message": "Importieren"
+  },
+  "backupImported": {
+    "message": "Einstellungen importiert"
+  },
+  "backupInvalid": {
+    "message": "Diese Datei ist keine gültige Linkwash-Sicherung."
+  },
+  "resetSettings": {
+    "message": "Standardwerte wiederherstellen"
+  },
+  "resetSettingsDesc": {
+    "message": "Setzt alle Einstellungen zurück. Pausierte Seiten und eigene Parameter werden entfernt."
+  },
+  "resetSettingsBtn": {
+    "message": "Zurücksetzen"
+  },
+  "resetSettingsConfirm": {
+    "message": "Alle Einstellungen auf die Standardwerte zurücksetzen? Deine pausierten Seiten und eigenen Parameter werden entfernt."
+  },
+  "aboutTitle": {
+    "message": "Über"
+  },
+  "aboutVersion": {
+    "message": "Version $1"
+  },
+  "aboutText": {
+    "message": "Linkwash entfernt Tracking-Parameter aus Links, noch bevor eine Seite lädt. Es ist kostenlos, Open Source und läuft komplett auf deinem Gerät."
+  },
+  "aboutFactLocal": {
+    "message": "Kein Konto, keine Server, keine Datensammlung – alles bleibt in deinem Browser."
+  },
+  "aboutRules": {
+    "message": "$1 Tracking-Parameter, mit Extra-Regeln für $2 beliebte Websites"
+  },
+  "aboutFactFree": {
+    "message": "Kostenlos und Open Source, ohne Werbung."
+  },
+  "aboutSource": {
+    "message": "Quellcode"
+  },
+  "aboutPrivacy": {
+    "message": "Datenschutzerklärung"
+  },
+  "aboutReport": {
+    "message": "Fehlerhafte Seite melden"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – Removedor de rastreadores para links limpos"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "Remove parâmetros de rastreamento como utm_source, fbclid e gclid de todos os links. Rápido, privado, grátis – sem login."
+  },
+  "actionTitle": {
+    "message": "Linkwash – limpar links"
+  },
+  "commandCopy": {
+    "message": "Copiar um link limpo da página atual"
+  },
+  "brandTagline": {
+    "message": "Links limpos. Zero rastreadores."
+  },
+  "statusProtected": {
+    "message": "Protegido"
+  },
+  "statusPaused": {
+    "message": "Pausado"
+  },
+  "statusSitePaused": {
+    "message": "Pausado neste site"
+  },
+  "toggleProtection": {
+    "message": "Ativar ou desativar a proteção"
+  },
+  "heroRemovedOnPage": {
+    "message": "rastreadores removidos nesta página"
+  },
+  "heroNothingYet": {
+    "message": "Nenhum rastreador nesta página até agora"
+  },
+  "heroUnavailable": {
+    "message": "O Linkwash não funciona em páginas do navegador"
+  },
+  "heroPaused": {
+    "message": "A proteção está pausada"
+  },
+  "moreCount": {
+    "message": "+$1 mais"
+  },
+  "siteCleanToggle": {
+    "message": "Limpar links neste site"
+  },
+  "siteRulesFor": {
+    "message": "Regras extras para $1 ativas"
+  },
+  "siteGeneralRules": {
+    "message": "Proteção padrão ativa"
+  },
+  "siteIsPaused": {
+    "message": "Os links deste site não são limpos"
+  },
+  "siteUnavailable": {
+    "message": "Página do navegador"
+  },
+  "statLinks": {
+    "message": "Links limpos"
+  },
+  "statTrackers": {
+    "message": "Rastreadores removidos"
+  },
+  "statRedirects": {
+    "message": "Redirecionamentos pulados"
+  },
+  "actionCopyClean": {
+    "message": "Copiar link limpo"
+  },
+  "actionCopied": {
+    "message": "Copiado!"
+  },
+  "actionSettings": {
+    "message": "Configurações"
+  },
+  "footerPrivacy": {
+    "message": "Funciona off-line · Sem conta · Sem coleta de dados"
+  },
+  "menuCopyCleanLink": {
+    "message": "Copiar link limpo"
+  },
+  "menuOpenCleanLink": {
+    "message": "Abrir link limpo em nova guia"
+  },
+  "menuCopyCleanPage": {
+    "message": "Copiar link limpo desta página"
+  },
+  "navOverview": {
+    "message": "Visão geral"
+  },
+  "navProtection": {
+    "message": "Proteção"
+  },
+  "navSites": {
+    "message": "Sites pausados"
+  },
+  "navCustom": {
+    "message": "Meus parâmetros"
+  },
+  "navTools": {
+    "message": "Limpador de links"
+  },
+  "navGeneral": {
+    "message": "Geral"
+  },
+  "navAbout": {
+    "message": "Sobre"
+  },
+  "welcomeTitle": {
+    "message": "Boas-vindas ao Linkwash"
+  },
+  "welcomeText": {
+    "message": "Você está protegido. A partir de agora, o Linkwash remove rastreadores de todos os links que você abrir. Não há nada para configurar e você não precisa de conta."
+  },
+  "welcomeDismiss": {
+    "message": "Entendi"
+  },
+  "overviewTitle": {
+    "message": "Visão geral"
+  },
+  "overviewSubtitle": {
+    "message": "O que o Linkwash fez por você desde $1."
+  },
+  "topTrackers": {
+    "message": "Rastreadores mais removidos"
+  },
+  "topSites": {
+    "message": "Sites com mais rastreadores"
+  },
+  "byCategory": {
+    "message": "Por categoria"
+  },
+  "emptyStats": {
+    "message": "Nada ainda. Abra um link com rastreadores e ele vai aparecer aqui."
+  },
+  "resetStats": {
+    "message": "Redefinir estatísticas"
+  },
+  "resetStatsConfirm": {
+    "message": "Redefinir todas as estatísticas? Isso não pode ser desfeito."
+  },
+  "protectionTitle": {
+    "message": "Proteção"
+  },
+  "protectionSubtitle": {
+    "message": "Escolha quais tipos de rastreadores o Linkwash remove. As alterações valem na hora."
+  },
+  "cat_marketing_name": {
+    "message": "Tags de campanha"
+  },
+  "cat_marketing_desc": {
+    "message": "Parâmetros de campanha UTM, Matomo e outros que contam a um site de onde você veio."
+  },
+  "cat_ads_name": {
+    "message": "IDs de clique em anúncios"
+  },
+  "cat_ads_desc": {
+    "message": "Identificadores de clique do Google, Meta, Microsoft, TikTok, X e outras redes de anúncios."
+  },
+  "cat_email_name": {
+    "message": "E-mail e newsletters"
+  },
+  "cat_email_desc": {
+    "message": "Códigos de rastreamento do Mailchimp, HubSpot, Marketo e outras ferramentas de e-mail."
+  },
+  "cat_analytics_name": {
+    "message": "Análise"
+  },
+  "cat_analytics_desc": {
+    "message": "IDs de análise entre sites do Google Analytics, Webtrekk, Piano e outros."
+  },
+  "cat_social_name": {
+    "message": "Redes sociais"
+  },
+  "cat_social_desc": {
+    "message": "Rastreadores de compartilhamento e indicação no YouTube, Instagram, X, TikTok, Facebook, Reddit, LinkedIn, Spotify e outros."
+  },
+  "cat_shopping_name": {
+    "message": "Compras"
+  },
+  "cat_shopping_desc": {
+    "message": "Rastreamento na Amazon, eBay, AliExpress, Temu, Etsy, Booking.com e outras lojas."
+  },
+  "cat_search_name": {
+    "message": "Buscadores"
+  },
+  "cat_search_desc": {
+    "message": "Rastreadores de sessão e de clique no Google e no Bing."
+  },
+  "cat_affiliate_name": {
+    "message": "Tags de afiliados"
+  },
+  "cat_affiliate_desc": {
+    "message": "Tags de indicação que rendem comissão aos criadores. Desativadas por padrão, para que os criadores de que você gosta continuem sendo pagos."
+  },
+  "cat_custom_name": {
+    "message": "Meus parâmetros"
+  },
+  "paramsCount": {
+    "message": "$1 parâmetros"
+  },
+  "showParams": {
+    "message": "Mostrar parâmetros"
+  },
+  "hideParams": {
+    "message": "Ocultar parâmetros"
+  },
+  "globalParams": {
+    "message": "Todos os sites"
+  },
+  "featuresTitle": {
+    "message": "Proteção extra"
+  },
+  "featUnwrapName": {
+    "message": "Pular páginas de redirecionamento"
+  },
+  "featUnwrapDesc": {
+    "message": "Abre diretamente o destino real de links encapsulados do Google, Facebook, YouTube, Reddit e outros, para que a página de redirecionamento não registre seu clique."
+  },
+  "featPingsName": {
+    "message": "Bloquear pings de clique"
+  },
+  "featPingsDesc": {
+    "message": "Remove pings ocultos que informam a um site em qual link você clicou."
+  },
+  "featBadgeName": {
+    "message": "Mostrar contador no ícone"
+  },
+  "featBadgeDesc": {
+    "message": "Mostra quantos rastreadores foram removidos na página atual."
+  },
+  "sitesTitle": {
+    "message": "Sites pausados"
+  },
+  "sitesSubtitle": {
+    "message": "O Linkwash não altera links nesses sites. Adicione um site aqui se ele parar de funcionar direito."
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "Adicionar site"
+  },
+  "sitesEmpty": {
+    "message": "Nenhum site pausado. O Linkwash limpa links em todos os lugares."
+  },
+  "sitesInvalid": {
+    "message": "Digite um domínio válido, por exemplo example.com."
+  },
+  "remove": {
+    "message": "Remover"
+  },
+  "customTitle": {
+    "message": "Meus parâmetros"
+  },
+  "customSubtitle": {
+    "message": "Adicione parâmetros que o Linkwash deve remover em todos os sites. Separe vários nomes com espaços ou vírgulas."
+  },
+  "customPlaceholder": {
+    "message": "ex.: campaign_ref"
+  },
+  "customAdd": {
+    "message": "Adicionar"
+  },
+  "customEmpty": {
+    "message": "Você ainda não adicionou nenhum parâmetro."
+  },
+  "customInvalid": {
+    "message": "Nomes de parâmetros não podem conter espaços nem os caracteres & = # ?"
+  },
+  "customExists": {
+    "message": "Este parâmetro já está na lista."
+  },
+  "toolsTitle": {
+    "message": "Limpador de links"
+  },
+  "toolsSubtitle": {
+    "message": "Cole um link para ver quais rastreadores o Linkwash remove e depois copie a versão limpa."
+  },
+  "toolsPlaceholder": {
+    "message": "Cole um link aqui…"
+  },
+  "toolsResult": {
+    "message": "Link limpo"
+  },
+  "toolsRemoved": {
+    "message": "Removidos"
+  },
+  "toolsNone": {
+    "message": "Este link já está limpo."
+  },
+  "toolsInvalid": {
+    "message": "Isso não parece um link da web (http ou https)."
+  },
+  "toolsCopy": {
+    "message": "Copiar"
+  },
+  "toolsUnwrapped": {
+    "message": "Redirecionamento pulado"
+  },
+  "toastCopied": {
+    "message": "Link limpo copiado"
+  },
+  "shortcutTitle": {
+    "message": "Atalho de teclado"
+  },
+  "shortcutDesc": {
+    "message": "Pressione $1 em qualquer página para copiar o link limpo dela."
+  },
+  "shortcutNone": {
+    "message": "Nenhum atalho definido. Você pode escolher um nas configurações de atalhos do Chrome."
+  },
+  "shortcutChange": {
+    "message": "Alterar"
+  },
+  "generalTitle": {
+    "message": "Geral"
+  },
+  "languageLabel": {
+    "message": "Idioma"
+  },
+  "languageAuto": {
+    "message": "Idioma do navegador"
+  },
+  "themeLabel": {
+    "message": "Aparência"
+  },
+  "themeAuto": {
+    "message": "Sistema"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "themeDark": {
+    "message": "Escuro"
+  },
+  "backupTitle": {
+    "message": "Backup das configurações"
+  },
+  "backupDesc": {
+    "message": "Salve suas configurações em um arquivo ou carregue-as em outro computador."
+  },
+  "backupExport": {
+    "message": "Exportar"
+  },
+  "backupImport": {
+    "message": "Importar"
+  },
+  "backupImported": {
+    "message": "Configurações importadas"
+  },
+  "backupInvalid": {
+    "message": "Este arquivo não é um backup válido do Linkwash."
+  },
+  "resetSettings": {
+    "message": "Restaurar padrões"
+  },
+  "resetSettingsDesc": {
+    "message": "Redefine todas as configurações. Sites pausados e seus parâmetros são removidos."
+  },
+  "resetSettingsBtn": {
+    "message": "Restaurar"
+  },
+  "resetSettingsConfirm": {
+    "message": "Restaurar todas as configurações para o padrão? Seus sites pausados e parâmetros serão removidos."
+  },
+  "aboutTitle": {
+    "message": "Sobre"
+  },
+  "aboutVersion": {
+    "message": "Versão $1"
+  },
+  "aboutText": {
+    "message": "O Linkwash remove parâmetros de rastreamento dos links antes mesmo de a página carregar. É gratuito, de código aberto e funciona totalmente no seu dispositivo."
+  },
+  "aboutFactLocal": {
+    "message": "Sem conta, sem servidores, sem coleta de dados – tudo fica no seu navegador."
+  },
+  "aboutRules": {
+    "message": "$1 parâmetros de rastreamento, com regras extras para $2 sites populares"
+  },
+  "aboutFactFree": {
+    "message": "Gratuito e de código aberto, sem anúncios."
+  },
+  "aboutSource": {
+    "message": "Código-fonte"
+  },
+  "aboutPrivacy": {
+    "message": "Política de privacidade"
+  },
+  "aboutReport": {
+    "message": "Informar site com problema"
+  }
+}

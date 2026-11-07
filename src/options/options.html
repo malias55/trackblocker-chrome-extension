@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linkwash</title>
+    <link rel="icon" href="../../icons/icon-32.png">
+    <link rel="stylesheet" href="../ui/base.css">
+    <link rel="stylesheet" href="options.css">
+  </head>
+  <body class="loading">
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="side-brand">
+          <div class="logo"><i data-icon="logo"></i></div>
+          <div>
+            <div class="wordmark">Linkwash</div>
+            <div class="tagline" data-i18n="brandTagline">Clean links. Zero trackers.</div>
+          </div>
+        </div>
+        <nav class="nav" id="nav">
+          <a href="#overview" data-section="overview"><i data-icon="home"></i><span data-i18n="navOverview">Overview</span></a>
+          <a href="#protection" data-section="protection"><i data-icon="shield"></i><span data-i18n="navProtection">Protection</span></a>
+          <a href="#sites" data-section="sites"><i data-icon="pause"></i><span data-i18n="navSites">Paused sites</span></a>
+          <a href="#custom" data-section="custom"><i data-icon="tag"></i><span data-i18n="navCustom">Own parameters</span></a>
+          <a href="#tools" data-section="tools"><i data-icon="wand"></i><span data-i18n="navTools">Link cleaner</span></a>
+          <a href="#general" data-section="general"><i data-icon="sliders"></i><span data-i18n="navGeneral">General</span></a>
+          <a href="#about" data-section="about"><i data-icon="info"></i><span data-i18n="navAbout">About</span></a>
+        </nav>
+        <div class="side-foot">
+          <i data-icon="lock" data-size="14"></i>
+          <span data-i18n="footerPrivacy">Works offline · No account · No data collection</span>
+        </div>
+      </aside>
+
+      <main class="content">
+        <!-- Welcome -->
+        <section class="welcome" id="welcome" hidden>
+          <div class="welcome-art"><i data-icon="sparkle" data-size="26"></i></div>
+          <div class="welcome-text">
+            <h2 data-i18n="welcomeTitle">Welcome to Linkwash</h2>
+            <p data-i18n="welcomeText"></p>
+          </div>
+          <button class="btn primary" id="welcomeDismiss" data-i18n="welcomeDismiss">Got it</button>
+        </section>
+
+        <!-- Overview -->
+        <section class="section" id="overview">
+          <header class="section-head">
+            <div>
+              <h1 data-i18n="overviewTitle">Overview</h1>
+              <p class="lead" id="overviewSince"></p>
+            </div>
+            <div class="master card">
+              <div class="master-text">
+                <span class="pill" id="masterStatus"></span>
+              </div>
+              <label class="switch lg">
+                <input type="checkbox" id="master" data-i18n-aria-label="toggleProtection">
+                <span class="track"></span>
+              </label>
+            </div>
+          </header>
+
+          <div class="kpis">
+            <div class="kpi brand-kpi">
+              <div class="kpi-icon"><i data-icon="shield" data-size="20"></i></div>
+              <div class="kpi-value" id="kpiParams">0</div>
+              <div class="kpi-label" data-i18n="statTrackers">Trackers removed</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-icon"><i data-icon="link" data-size="20"></i></div>
+              <div class="kpi-value" id="kpiLinks">0</div>
+              <div class="kpi-label" data-i18n="statLinks">Links cleaned</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-icon"><i data-icon="redirect" data-size="20"></i></div>
+              <div class="kpi-value" id="kpiRedirects">0</div>
+              <div class="kpi-label" data-i18n="statRedirects">Redirects skipped</div>
+            </div>
+          </div>
+
+          <div class="grid-2">
+            <div class="card panel">
+              <h3 data-i18n="topTrackers">Most removed trackers</h3>
+              <ol class="bars" id="topParams"></ol>
+            </div>
+            <div class="card panel">
+              <h3 data-i18n="topSites">Sites with the most trackers</h3>
+              <ol class="bars" id="topSites"></ol>
+            </div>
+          </div>
+          <div class="card panel">
+            <h3 data-i18n="byCategory">By category</h3>
+            <div class="stack" id="catStack"></div>
+            <div class="legend" id="catLegend"></div>
+          </div>
+          <div class="row-end">
+            <button class="btn ghost danger sm" id="resetStats"><i data-icon="reset"></i><span data-i18n="resetStats">Reset statistics</span></button>
+          </div>
+        </section>
+
+        <!-- Protection -->
+        <section class="section" id="protection">
+          <header class="section-head">
+            <div>
+              <h1 data-i18n="protectionTitle">Protection</h1>
+              <p class="lead" data-i18n="protectionSubtitle"></p>
+            </div>
+          </header>
+          <div class="cats" id="cats"></div>
+
+          <h2 class="sub-title" data-i18n="featuresTitle">Extra protection</h2>
+          <div class="card list">
+            <label class="row">
+              <div class="row-icon"><i data-icon="redirect"></i></div>
+              <div class="row-text">
+                <div class="row-title" data-i18n="featUnwrapName"></div>
+                <div class="row-desc" data-i18n="featUnwrapDesc"></div>
+              </div>
+              <span class="switch"><input type="checkbox" id="unwrapRedirects"><span class="track"></span></span>
+            </label>
+            <label class="row">
+              <div class="row-icon"><i data-icon="target"></i></div>
+              <div class="row-text">
+                <div class="row-title" data-i18n="featPingsName"></div>
+                <div class="row-desc" data-i18n="featPingsDesc"></div>
+              </div>
+              <span class="switch"><input type="checkbox" id="blockPings"><span class="track"></span></span>
+            </label>
+            <label class="row">
+              <div class="row-icon"><i data-icon="chart"></i></div>
+              <div class="row-text">
+                <div class="row-title" data-i18n="featBadgeName"></div>
+                <div class="row-desc" data-i18n="featBadgeDesc"></div>
+              </div>
+              <span class="switch"><input type="checkbox" id="showBadge"><span class="track"></span></span>
+            </label>
+          </div>
+        </section>
+
+        <!-- Allowlist -->
+        <section class="section" id="sites">
+          <header class="section-head">
+            <div>
+              <h1 data-i18n="sitesTitle">Paused sites</h1>
+              <p class="lead" data-i18n="sitesSubtitle"></p>
+            </div>
+          </header>
+          <div class="card panel">
+            <form class="add-form" id="siteForm" novalidate>
+              <input class="input" id="siteInput" autocomplete="off" spellcheck="false" data-i18n-placeholder="sitesPlaceholder" data-i18n-aria-label="sitesPlaceholder">
+              <button class="btn primary" type="submit"><i data-icon="plus"></i><span data-i18n="sitesAdd">Add site</span></button>
+            </form>
+            <div class="form-error" id="siteError" role="alert"></div>
+            <ul class="entries" id="siteList"></ul>
+          </div>
+        </section>
+
+        <!-- Custom params -->
+        <section class="section" id="custom">
+          <header class="section-head">
+            <div>
+              <h1 data-i18n="customTitle">Own parameters</h1>
+              <p class="lead" data-i18n="customSubtitle"></p>
+            </div>
+          </header>
+          <div class="card panel">
+            <form class="add-form" id="paramForm" novalidate>
+              <input class="input mono" id="paramInput" autocomplete="off" spellcheck="false" data-i18n-placeholder="customPlaceholder" data-i18n-aria-label="customPlaceholder">
+              <button class="btn primary" type="submit"><i data-icon="plus"></i><span data-i18n="customAdd">Add</span></button>
+            </form>
+            <div class="form-error" id="paramError" role="alert"></div>
+            <div class="chip-list" id="paramList"></div>
+          </div>
+        </section>
+
+        <!-- Tools -->
+        <section class="section" id="tools">
+          <header class="section-head">
+            <div>
+              <h1 data-i18n="toolsTitle">Link cleaner</h1>
+              <p class="lead" data-i18n="toolsSubtitle"></p>
+            </div>
+          </header>
+          <div class="card panel">
+            <textarea class="input" id="toolInput" rows="3" spellcheck="false" data-i18n-placeholder="toolsPlaceholder" data-i18n-aria-label="toolsPlaceholder"></textarea>
+            <div class="tool-out" id="toolOut" hidden>
+              <div class="tool-label"><span data-i18n="toolsResult">Clean link</span><span class="pill" id="toolBadge" hidden></span></div>
+              <div class="tool-url-row">
+                <code class="tool-url" id="toolUrl"></code>
+                <button class="btn sm" id="toolCopy"><i data-icon="copy"></i><span data-i18n="toolsCopy">Copy</span></button>
+              </div>
+              <div class="tool-label" id="toolRemovedLabel" data-i18n="toolsRemoved">Removed</div>
+              <div class="chip-list" id="toolRemoved"></div>
+            </div>
+            <div class="tool-msg" id="toolMsg" hidden></div>
+          </div>
+          <div class="card list shortcut">
+            <div class="row">
+              <div class="row-icon"><i data-icon="keyboard"></i></div>
+              <div class="row-text">
+                <div class="row-title" data-i18n="shortcutTitle">Keyboard shortcut</div>
+                <div class="row-desc" id="shortcutDesc"></div>
+              </div>
+              <button class="btn sm" id="shortcutBtn" data-i18n="shortcutChange">Change</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- General -->
+        <section class="section" id="general">
+          <header class="section-head">
+            <div><h1 data-i18n="generalTitle">General</h1></div>
+          </header>
+          <div class="card list">
+            <div class="row">
+              <div class="row-icon"><i data-icon="globe"></i></div>
+              <div class="row-text"><label class="row-title" for="language" data-i18n="languageLabel">Language</label></div>
+              <select class="input select" id="language"></select>
+            </div>
+            <div class="row">
+              <div class="row-icon"><i data-icon="sparkle"></i></div>
+              <div class="row-text"><div class="row-title" id="themeLabel" data-i18n="themeLabel">Appearance</div></div>
+              <div class="segmented" role="radiogroup" aria-labelledby="themeLabel" id="theme">
+                <button type="button" role="radio" data-value="auto" data-i18n="themeAuto">System</button>
+                <button type="button" role="radio" data-value="light" data-i18n="themeLight">Light</button>
+                <button type="button" role="radio" data-value="dark" data-i18n="themeDark">Dark</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="row-icon"><i data-icon="download"></i></div>
+              <div class="row-text">
+                <div class="row-title" data-i18n="backupTitle">Back up settings</div>
+                <div class="row-desc" data-i18n="backupDesc"></div>
+              </div>
+              <div class="row-actions">
+                <button class="btn sm" id="exportBtn"><i data-icon="download"></i><span data-i18n="backupExport">Export</span></button>
+                <button class="btn sm" id="importBtn"><i data-icon="upload"></i><span data-i18n="backupImport">Import</span></button>
+                <input type="file" id="importFile" accept="application/json,.json" hidden>
+              </div>
+            </div>
+            <div class="row">
+              <div class="row-icon"><i data-icon="reset"></i></div>
+              <div class="row-text">
+                <div class="row-title" data-i18n="resetSettings">Restore defaults</div>
+                <div class="row-desc" data-i18n="resetSettingsDesc"></div>
+              </div>
+              <button class="btn sm danger" id="resetSettings" data-i18n="resetSettingsBtn">Restore</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+          <header class="section-head">
+            <div><h1 data-i18n="aboutTitle">About</h1></div>
+          </header>
+          <div class="card about">
+            <div class="about-hero">
+              <div class="logo big"><i data-icon="logo" data-size="34"></i></div>
+              <div>
+                <div class="wordmark big">Linkwash</div>
+                <div class="muted" id="aboutVersion"></div>
+              </div>
+            </div>
+            <p data-i18n="aboutText"></p>
+            <ul class="facts">
+              <li><i data-icon="lock"></i><span data-i18n="aboutFactLocal"></span></li>
+              <li><i data-icon="shield"></i><span id="aboutRules"></span></li>
+              <li><i data-icon="sparkle"></i><span data-i18n="aboutFactFree"></span></li>
+            </ul>
+            <div class="about-links">
+              <a class="btn sm" href="https://github.com/malias55/trackblocker-chrome-extension" target="_blank" rel="noopener"><i data-icon="github"></i><span data-i18n="aboutSource">Source code</span></a>
+              <a class="btn sm" href="https://github.com/malias55/trackblocker-chrome-extension/blob/main/PRIVACY.md" target="_blank" rel="noopener"><i data-icon="lock"></i><span data-i18n="aboutPrivacy">Privacy policy</span></a>
+              <a class="btn sm" href="https://github.com/malias55/trackblocker-chrome-extension/issues/new" target="_blank" rel="noopener"><i data-icon="info"></i><span data-i18n="aboutReport">Report a broken site</span></a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="../shared/rules.js"></script>
+    <script src="../shared/engine.js"></script>
+    <script src="../shared/i18n.js"></script>
+    <script src="../ui/icons.js"></script>
+    <script src="../ui/common.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>

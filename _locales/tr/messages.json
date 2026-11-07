@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – Temiz Bağlantılar için İzleyici Temizleyici"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "utm_source, fbclid ve gclid gibi izleme parametrelerini her bağlantıdan kaldırır. Hızlı, gizli, ücretsiz – giriş gerekmez."
+  },
+  "actionTitle": {
+    "message": "Linkwash – bağlantıları temizle"
+  },
+  "commandCopy": {
+    "message": "Geçerli sayfanın temiz bağlantısını kopyala"
+  },
+  "brandTagline": {
+    "message": "Temiz bağlantılar. Sıfır izleyici."
+  },
+  "statusProtected": {
+    "message": "Korunuyor"
+  },
+  "statusPaused": {
+    "message": "Duraklatıldı"
+  },
+  "statusSitePaused": {
+    "message": "Bu sitede duraklatıldı"
+  },
+  "toggleProtection": {
+    "message": "Korumayı aç veya kapat"
+  },
+  "heroRemovedOnPage": {
+    "message": "izleyici bu sayfada kaldırıldı"
+  },
+  "heroNothingYet": {
+    "message": "Bu sayfada henüz izleyici yok"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash tarayıcı sayfalarında çalışmaz"
+  },
+  "heroPaused": {
+    "message": "Koruma duraklatıldı"
+  },
+  "moreCount": {
+    "message": "+$1 daha"
+  },
+  "siteCleanToggle": {
+    "message": "Bu sitede bağlantıları temizle"
+  },
+  "siteRulesFor": {
+    "message": "$1 için ek kurallar etkin"
+  },
+  "siteGeneralRules": {
+    "message": "Standart koruma etkin"
+  },
+  "siteIsPaused": {
+    "message": "Bu sitedeki bağlantılar temizlenmiyor"
+  },
+  "siteUnavailable": {
+    "message": "Tarayıcı sayfası"
+  },
+  "statLinks": {
+    "message": "Temizlenen bağlantı"
+  },
+  "statTrackers": {
+    "message": "Kaldırılan izleyici"
+  },
+  "statRedirects": {
+    "message": "Atlanan yönlendirme"
+  },
+  "actionCopyClean": {
+    "message": "Temiz bağlantıyı kopyala"
+  },
+  "actionCopied": {
+    "message": "Kopyalandı!"
+  },
+  "actionSettings": {
+    "message": "Ayarlar"
+  },
+  "footerPrivacy": {
+    "message": "Çevrimdışı çalışır · Hesap yok · Veri toplama yok"
+  },
+  "menuCopyCleanLink": {
+    "message": "Temiz bağlantıyı kopyala"
+  },
+  "menuOpenCleanLink": {
+    "message": "Temiz bağlantıyı yeni sekmede aç"
+  },
+  "menuCopyCleanPage": {
+    "message": "Bu sayfanın temiz bağlantısını kopyala"
+  },
+  "navOverview": {
+    "message": "Genel bakış"
+  },
+  "navProtection": {
+    "message": "Koruma"
+  },
+  "navSites": {
+    "message": "Duraklatılan siteler"
+  },
+  "navCustom": {
+    "message": "Özel parametreler"
+  },
+  "navTools": {
+    "message": "Bağlantı temizleyici"
+  },
+  "navGeneral": {
+    "message": "Genel"
+  },
+  "navAbout": {
+    "message": "Hakkında"
+  },
+  "welcomeTitle": {
+    "message": "Linkwash'a hoş geldiniz"
+  },
+  "welcomeText": {
+    "message": "Artık korunuyorsunuz. Linkwash bundan sonra açtığınız her bağlantıdaki izleyicileri kaldırır. Ayarlamanız gereken bir şey yok, hesaba da ihtiyacınız yok."
+  },
+  "welcomeDismiss": {
+    "message": "Anladım"
+  },
+  "overviewTitle": {
+    "message": "Genel bakış"
+  },
+  "overviewSubtitle": {
+    "message": "Linkwash'ın $1 tarihinden bu yana sizin için yaptıkları."
+  },
+  "topTrackers": {
+    "message": "En çok kaldırılan izleyiciler"
+  },
+  "topSites": {
+    "message": "En çok izleyici içeren siteler"
+  },
+  "byCategory": {
+    "message": "Kategoriye göre"
+  },
+  "emptyStats": {
+    "message": "Henüz bir şey yok. İzleyici içeren bir bağlantı açtığınızda burada görünecek."
+  },
+  "resetStats": {
+    "message": "İstatistikleri sıfırla"
+  },
+  "resetStatsConfirm": {
+    "message": "Tüm istatistikler sıfırlansın mı? Bu işlem geri alınamaz."
+  },
+  "protectionTitle": {
+    "message": "Koruma"
+  },
+  "protectionSubtitle": {
+    "message": "Linkwash'ın hangi tür izleyicileri kaldıracağını seçin. Değişiklikler hemen uygulanır."
+  },
+  "cat_marketing_name": {
+    "message": "Kampanya etiketleri"
+  },
+  "cat_marketing_desc": {
+    "message": "Bir siteye nereden geldiğinizi bildiren UTM, Matomo ve diğer kampanya parametreleri."
+  },
+  "cat_ads_name": {
+    "message": "Reklam tıklama kimlikleri"
+  },
+  "cat_ads_desc": {
+    "message": "Google, Meta, Microsoft, TikTok, X ve diğer reklam ağlarının tıklama kimlikleri."
+  },
+  "cat_email_name": {
+    "message": "E-posta ve bültenler"
+  },
+  "cat_email_desc": {
+    "message": "Mailchimp, HubSpot, Marketo ve diğer e-posta araçlarının izleme kodları."
+  },
+  "cat_analytics_name": {
+    "message": "Analiz"
+  },
+  "cat_analytics_desc": {
+    "message": "Google Analytics, Webtrekk, Piano ve diğerlerinin siteler arası analiz kimlikleri."
+  },
+  "cat_social_name": {
+    "message": "Sosyal medya"
+  },
+  "cat_social_desc": {
+    "message": "YouTube, Instagram, X, TikTok, Facebook, Reddit, LinkedIn, Spotify ve diğerlerindeki paylaşım ve yönlendirme izleyicileri."
+  },
+  "cat_shopping_name": {
+    "message": "Alışveriş"
+  },
+  "cat_shopping_desc": {
+    "message": "Amazon, eBay, AliExpress, Temu, Etsy, Booking.com ve diğer mağazalardaki izleme."
+  },
+  "cat_search_name": {
+    "message": "Arama motorları"
+  },
+  "cat_search_desc": {
+    "message": "Google ve Bing'deki oturum ve tıklama izleyicileri."
+  },
+  "cat_affiliate_name": {
+    "message": "Ortaklık etiketleri"
+  },
+  "cat_affiliate_desc": {
+    "message": "İçerik üreticilerine komisyon kazandıran yönlendirme etiketleri. Sevdiğiniz üreticiler kazanmaya devam etsin diye varsayılan olarak kapalıdır."
+  },
+  "cat_custom_name": {
+    "message": "Özel parametreler"
+  },
+  "paramsCount": {
+    "message": "$1 parametre"
+  },
+  "showParams": {
+    "message": "Parametreleri göster"
+  },
+  "hideParams": {
+    "message": "Parametreleri gizle"
+  },
+  "globalParams": {
+    "message": "Tüm web siteleri"
+  },
+  "featuresTitle": {
+    "message": "Ek koruma"
+  },
+  "featUnwrapName": {
+    "message": "Yönlendirme sayfalarını atla"
+  },
+  "featUnwrapDesc": {
+    "message": "Google, Facebook, YouTube, Reddit ve diğerlerinin sarmalanmış bağlantılarında gerçek hedefi doğrudan açar; böylece yönlendirme sayfası tıklamanızı kaydedemez."
+  },
+  "featPingsName": {
+    "message": "Tıklama pinglerini engelle"
+  },
+  "featPingsDesc": {
+    "message": "Bir web sitesine hangi bağlantıya tıkladığınızı bildiren gizli pingleri kaldırır."
+  },
+  "featBadgeName": {
+    "message": "Simgede sayaç göster"
+  },
+  "featBadgeDesc": {
+    "message": "Geçerli sayfada kaç izleyicinin kaldırıldığını gösterir."
+  },
+  "sitesTitle": {
+    "message": "Duraklatılan siteler"
+  },
+  "sitesSubtitle": {
+    "message": "Linkwash bu sitelerdeki bağlantıları değiştirmez. Bir site düzgün çalışmayı bırakırsa buraya ekleyin."
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "Site ekle"
+  },
+  "sitesEmpty": {
+    "message": "Duraklatılan site yok. Linkwash her yerde bağlantıları temizliyor."
+  },
+  "sitesInvalid": {
+    "message": "Geçerli bir alan adı girin, örneğin example.com."
+  },
+  "remove": {
+    "message": "Kaldır"
+  },
+  "customTitle": {
+    "message": "Özel parametreler"
+  },
+  "customSubtitle": {
+    "message": "Linkwash'ın her web sitesinde kaldırması gereken parametreleri ekleyin. Birden fazla adı boşluk veya virgülle ayırın."
+  },
+  "customPlaceholder": {
+    "message": "ör. campaign_ref"
+  },
+  "customAdd": {
+    "message": "Ekle"
+  },
+  "customEmpty": {
+    "message": "Henüz parametre eklemediniz."
+  },
+  "customInvalid": {
+    "message": "Parametre adları boşluk veya & = # ? karakterlerini içeremez"
+  },
+  "customExists": {
+    "message": "Bu parametre zaten listede."
+  },
+  "toolsTitle": {
+    "message": "Bağlantı temizleyici"
+  },
+  "toolsSubtitle": {
+    "message": "Linkwash'ın hangi izleyicileri kaldırdığını görmek için bir bağlantı yapıştırın, ardından temiz sürümü kopyalayın."
+  },
+  "toolsPlaceholder": {
+    "message": "Bağlantıyı buraya yapıştırın…"
+  },
+  "toolsResult": {
+    "message": "Temiz bağlantı"
+  },
+  "toolsRemoved": {
+    "message": "Kaldırılanlar"
+  },
+  "toolsNone": {
+    "message": "Bu bağlantı zaten temiz."
+  },
+  "toolsInvalid": {
+    "message": "Bu bir web bağlantısına benzemiyor (http veya https)."
+  },
+  "toolsCopy": {
+    "message": "Kopyala"
+  },
+  "toolsUnwrapped": {
+    "message": "Yönlendirme atlandı"
+  },
+  "toastCopied": {
+    "message": "Temiz bağlantı kopyalandı"
+  },
+  "shortcutTitle": {
+    "message": "Klavye kısayolu"
+  },
+  "shortcutDesc": {
+    "message": "Herhangi bir sayfanın temiz bağlantısını kopyalamak için $1 tuşlarına basın."
+  },
+  "shortcutNone": {
+    "message": "Kısayol ayarlanmadı. Chrome'un kısayol ayarlarından bir tane seçebilirsiniz."
+  },
+  "shortcutChange": {
+    "message": "Değiştir"
+  },
+  "generalTitle": {
+    "message": "Genel"
+  },
+  "languageLabel": {
+    "message": "Dil"
+  },
+  "languageAuto": {
+    "message": "Tarayıcı dili"
+  },
+  "themeLabel": {
+    "message": "Görünüm"
+  },
+  "themeAuto": {
+    "message": "Sistem"
+  },
+  "themeLight": {
+    "message": "Açık"
+  },
+  "themeDark": {
+    "message": "Koyu"
+  },
+  "backupTitle": {
+    "message": "Ayarları yedekle"
+  },
+  "backupDesc": {
+    "message": "Ayarlarınızı bir dosyaya kaydedin veya başka bir bilgisayarda yükleyin."
+  },
+  "backupExport": {
+    "message": "Dışa aktar"
+  },
+  "backupImport": {
+    "message": "İçe aktar"
+  },
+  "backupImported": {
+    "message": "Ayarlar içe aktarıldı"
+  },
+  "backupInvalid": {
+    "message": "Bu dosya geçerli bir Linkwash yedeği değil."
+  },
+  "resetSettings": {
+    "message": "Varsayılanları geri yükle"
+  },
+  "resetSettingsDesc": {
+    "message": "Tüm ayarları sıfırlar. Duraklatılan siteler ve özel parametreler kaldırılır."
+  },
+  "resetSettingsBtn": {
+    "message": "Geri yükle"
+  },
+  "resetSettingsConfirm": {
+    "message": "Tüm ayarlar varsayılana döndürülsün mü? Duraklatılan siteleriniz ve özel parametreleriniz kaldırılacak."
+  },
+  "aboutTitle": {
+    "message": "Hakkında"
+  },
+  "aboutVersion": {
+    "message": "Sürüm $1"
+  },
+  "aboutText": {
+    "message": "Linkwash, izleme parametrelerini sayfa daha yüklenmeden bağlantılardan kaldırır. Ücretsizdir, açık kaynaklıdır ve tamamen cihazınızda çalışır."
+  },
+  "aboutFactLocal": {
+    "message": "Hesap yok, sunucu yok, veri toplama yok – her şey tarayıcınızda kalır."
+  },
+  "aboutRules": {
+    "message": "$1 izleme parametresi, $2 popüler site için ek kurallar"
+  },
+  "aboutFactFree": {
+    "message": "Ücretsiz, açık kaynaklı ve reklamsız."
+  },
+  "aboutSource": {
+    "message": "Kaynak kodu"
+  },
+  "aboutPrivacy": {
+    "message": "Gizlilik politikası"
+  },
+  "aboutReport": {
+    "message": "Sorunlu bir siteyi bildir"
+  }
+}

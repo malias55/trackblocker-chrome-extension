@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – साफ़ लिंक के लिए ट्रैकर रिमूवर"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "हर लिंक से utm_source, fbclid और gclid जैसे ट्रैकिंग पैरामीटर हटाता है। तेज़, निजी, मुफ़्त – लॉगिन की ज़रूरत नहीं।"
+  },
+  "actionTitle": {
+    "message": "Linkwash – लिंक साफ़ करें"
+  },
+  "commandCopy": {
+    "message": "मौजूदा पेज का साफ़ लिंक कॉपी करें"
+  },
+  "brandTagline": {
+    "message": "साफ़ लिंक। ज़ीरो ट्रैकर।"
+  },
+  "statusProtected": {
+    "message": "सुरक्षित"
+  },
+  "statusPaused": {
+    "message": "रुका हुआ"
+  },
+  "statusSitePaused": {
+    "message": "इस साइट पर रुका हुआ"
+  },
+  "toggleProtection": {
+    "message": "सुरक्षा चालू या बंद करें"
+  },
+  "heroRemovedOnPage": {
+    "message": "इस पेज पर हटाए गए ट्रैकर"
+  },
+  "heroNothingYet": {
+    "message": "इस पेज पर अभी तक कोई ट्रैकर नहीं"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash ब्राउज़र पेजों पर काम नहीं करता"
+  },
+  "heroPaused": {
+    "message": "सुरक्षा रुकी हुई है"
+  },
+  "moreCount": {
+    "message": "+$1 और"
+  },
+  "siteCleanToggle": {
+    "message": "इस साइट पर लिंक साफ़ करें"
+  },
+  "siteRulesFor": {
+    "message": "$1 के लिए अतिरिक्त नियम चालू"
+  },
+  "siteGeneralRules": {
+    "message": "मानक सुरक्षा चालू"
+  },
+  "siteIsPaused": {
+    "message": "इस साइट पर लिंक साफ़ नहीं किए जाते"
+  },
+  "siteUnavailable": {
+    "message": "ब्राउज़र पेज"
+  },
+  "statLinks": {
+    "message": "साफ़ किए लिंक"
+  },
+  "statTrackers": {
+    "message": "हटाए गए ट्रैकर"
+  },
+  "statRedirects": {
+    "message": "छोड़े गए रीडायरेक्ट"
+  },
+  "actionCopyClean": {
+    "message": "साफ़ लिंक कॉपी करें"
+  },
+  "actionCopied": {
+    "message": "कॉपी हो गया!"
+  },
+  "actionSettings": {
+    "message": "सेटिंग"
+  },
+  "footerPrivacy": {
+    "message": "ऑफ़लाइन काम करता है · कोई खाता नहीं · कोई डेटा संग्रह नहीं"
+  },
+  "menuCopyCleanLink": {
+    "message": "साफ़ लिंक कॉपी करें"
+  },
+  "menuOpenCleanLink": {
+    "message": "साफ़ लिंक नए टैब में खोलें"
+  },
+  "menuCopyCleanPage": {
+    "message": "इस पेज का साफ़ लिंक कॉपी करें"
+  },
+  "navOverview": {
+    "message": "अवलोकन"
+  },
+  "navProtection": {
+    "message": "सुरक्षा"
+  },
+  "navSites": {
+    "message": "रुकी हुई साइटें"
+  },
+  "navCustom": {
+    "message": "अपने पैरामीटर"
+  },
+  "navTools": {
+    "message": "लिंक क्लीनर"
+  },
+  "navGeneral": {
+    "message": "सामान्य"
+  },
+  "navAbout": {
+    "message": "परिचय"
+  },
+  "welcomeTitle": {
+    "message": "Linkwash में आपका स्वागत है"
+  },
+  "welcomeText": {
+    "message": "आप सुरक्षित हैं। अब से Linkwash आपके खोले गए हर लिंक से ट्रैकर हटा देगा। कुछ भी सेट अप करने की ज़रूरत नहीं है और न ही किसी खाते की।"
+  },
+  "welcomeDismiss": {
+    "message": "ठीक है"
+  },
+  "overviewTitle": {
+    "message": "अवलोकन"
+  },
+  "overviewSubtitle": {
+    "message": "$1 से Linkwash ने आपके लिए क्या किया।"
+  },
+  "topTrackers": {
+    "message": "सबसे ज़्यादा हटाए गए ट्रैकर"
+  },
+  "topSites": {
+    "message": "सबसे ज़्यादा ट्रैकर वाली साइटें"
+  },
+  "byCategory": {
+    "message": "श्रेणी के अनुसार"
+  },
+  "emptyStats": {
+    "message": "अभी कुछ नहीं। ट्रैकर वाला कोई लिंक खोलें, वह यहाँ दिखेगा।"
+  },
+  "resetStats": {
+    "message": "आँकड़े रीसेट करें"
+  },
+  "resetStatsConfirm": {
+    "message": "सभी आँकड़े रीसेट करें? इसे पहले जैसा नहीं किया जा सकता।"
+  },
+  "protectionTitle": {
+    "message": "सुरक्षा"
+  },
+  "protectionSubtitle": {
+    "message": "चुनें कि Linkwash किस तरह के ट्रैकर हटाए। बदलाव तुरंत लागू होते हैं।"
+  },
+  "cat_marketing_name": {
+    "message": "कैंपेन टैग"
+  },
+  "cat_marketing_desc": {
+    "message": "UTM, Matomo और अन्य कैंपेन पैरामीटर, जो साइट को बताते हैं कि आप कहाँ से आए।"
+  },
+  "cat_ads_name": {
+    "message": "विज्ञापन क्लिक ID"
+  },
+  "cat_ads_desc": {
+    "message": "Google, Meta, Microsoft, TikTok, X और अन्य विज्ञापन नेटवर्क के क्लिक आइडेंटिफ़ायर।"
+  },
+  "cat_email_name": {
+    "message": "ईमेल और न्यूज़लेटर"
+  },
+  "cat_email_desc": {
+    "message": "Mailchimp, HubSpot, Marketo और अन्य ईमेल टूल के ट्रैकिंग कोड।"
+  },
+  "cat_analytics_name": {
+    "message": "एनालिटिक्स"
+  },
+  "cat_analytics_desc": {
+    "message": "Google Analytics, Webtrekk, Piano और अन्य की क्रॉस-साइट एनालिटिक्स ID।"
+  },
+  "cat_social_name": {
+    "message": "सोशल मीडिया"
+  },
+  "cat_social_desc": {
+    "message": "YouTube, Instagram, X, TikTok, Facebook, Reddit, LinkedIn, Spotify और अन्य पर शेयर और रेफ़रल ट्रैकर।"
+  },
+  "cat_shopping_name": {
+    "message": "शॉपिंग"
+  },
+  "cat_shopping_desc": {
+    "message": "Amazon, eBay, AliExpress, Temu, Etsy, Booking.com और अन्य दुकानों पर ट्रैकिंग।"
+  },
+  "cat_search_name": {
+    "message": "सर्च इंजन"
+  },
+  "cat_search_desc": {
+    "message": "Google और Bing पर सेशन और क्लिक ट्रैकर।"
+  },
+  "cat_affiliate_name": {
+    "message": "एफ़िलिएट टैग"
+  },
+  "cat_affiliate_desc": {
+    "message": "रेफ़रल टैग, जिनसे क्रिएटर्स को कमीशन मिलता है। डिफ़ॉल्ट रूप से बंद, ताकि आपके पसंदीदा क्रिएटर्स की कमाई होती रहे।"
+  },
+  "cat_custom_name": {
+    "message": "अपने पैरामीटर"
+  },
+  "paramsCount": {
+    "message": "$1 पैरामीटर"
+  },
+  "showParams": {
+    "message": "पैरामीटर दिखाएँ"
+  },
+  "hideParams": {
+    "message": "पैरामीटर छिपाएँ"
+  },
+  "globalParams": {
+    "message": "सभी वेबसाइटें"
+  },
+  "featuresTitle": {
+    "message": "अतिरिक्त सुरक्षा"
+  },
+  "featUnwrapName": {
+    "message": "रीडायरेक्ट पेज छोड़ें"
+  },
+  "featUnwrapDesc": {
+    "message": "Google, Facebook, YouTube, Reddit और अन्य के रैप किए गए लिंक का असली गंतव्य सीधे खोलता है, ताकि रीडायरेक्ट पेज आपका क्लिक दर्ज न कर सके।"
+  },
+  "featPingsName": {
+    "message": "क्लिक पिंग ब्लॉक करें"
+  },
+  "featPingsDesc": {
+    "message": "छिपे हुए पिंग हटाता है, जो वेबसाइट को बताते हैं कि आपने कौन-सा लिंक क्लिक किया।"
+  },
+  "featBadgeName": {
+    "message": "आइकन पर काउंटर दिखाएँ"
+  },
+  "featBadgeDesc": {
+    "message": "दिखाता है कि मौजूदा पेज पर कितने ट्रैकर हटाए गए।"
+  },
+  "sitesTitle": {
+    "message": "रुकी हुई साइटें"
+  },
+  "sitesSubtitle": {
+    "message": "Linkwash इन साइटों पर लिंक नहीं बदलता। अगर कोई साइट ठीक से काम करना बंद कर दे, तो उसे यहाँ जोड़ें।"
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "साइट जोड़ें"
+  },
+  "sitesEmpty": {
+    "message": "कोई रुकी हुई साइट नहीं। Linkwash हर जगह लिंक साफ़ करता है।"
+  },
+  "sitesInvalid": {
+    "message": "कोई मान्य डोमेन डालें, जैसे example.com"
+  },
+  "remove": {
+    "message": "हटाएँ"
+  },
+  "customTitle": {
+    "message": "अपने पैरामीटर"
+  },
+  "customSubtitle": {
+    "message": "ऐसे पैरामीटर जोड़ें, जिन्हें Linkwash हर वेबसाइट पर हटाए। कई नामों को स्पेस या कॉमा से अलग करें।"
+  },
+  "customPlaceholder": {
+    "message": "जैसे campaign_ref"
+  },
+  "customAdd": {
+    "message": "जोड़ें"
+  },
+  "customEmpty": {
+    "message": "आपने अभी तक कोई पैरामीटर नहीं जोड़ा है।"
+  },
+  "customInvalid": {
+    "message": "पैरामीटर नामों में स्पेस या & = # ? वर्ण नहीं हो सकते"
+  },
+  "customExists": {
+    "message": "यह पैरामीटर पहले से सूची में है।"
+  },
+  "toolsTitle": {
+    "message": "लिंक क्लीनर"
+  },
+  "toolsSubtitle": {
+    "message": "कोई लिंक पेस्ट करें और देखें कि Linkwash कौन-से ट्रैकर हटाता है, फिर साफ़ वर्शन कॉपी करें।"
+  },
+  "toolsPlaceholder": {
+    "message": "यहाँ लिंक पेस्ट करें…"
+  },
+  "toolsResult": {
+    "message": "साफ़ लिंक"
+  },
+  "toolsRemoved": {
+    "message": "हटाए गए"
+  },
+  "toolsNone": {
+    "message": "यह लिंक पहले से साफ़ है।"
+  },
+  "toolsInvalid": {
+    "message": "यह वेब लिंक (http या https) नहीं लगता।"
+  },
+  "toolsCopy": {
+    "message": "कॉपी करें"
+  },
+  "toolsUnwrapped": {
+    "message": "रीडायरेक्ट छोड़ा गया"
+  },
+  "toastCopied": {
+    "message": "साफ़ लिंक कॉपी हो गया"
+  },
+  "shortcutTitle": {
+    "message": "कीबोर्ड शॉर्टकट"
+  },
+  "shortcutDesc": {
+    "message": "किसी भी पेज का साफ़ लिंक कॉपी करने के लिए $1 दबाएँ।"
+  },
+  "shortcutNone": {
+    "message": "कोई शॉर्टकट सेट नहीं है। आप इसे Chrome की शॉर्टकट सेटिंग में चुन सकते हैं।"
+  },
+  "shortcutChange": {
+    "message": "बदलें"
+  },
+  "generalTitle": {
+    "message": "सामान्य"
+  },
+  "languageLabel": {
+    "message": "भाषा"
+  },
+  "languageAuto": {
+    "message": "ब्राउज़र की भाषा"
+  },
+  "themeLabel": {
+    "message": "रूप-रंग"
+  },
+  "themeAuto": {
+    "message": "सिस्टम"
+  },
+  "themeLight": {
+    "message": "लाइट"
+  },
+  "themeDark": {
+    "message": "डार्क"
+  },
+  "backupTitle": {
+    "message": "सेटिंग का बैकअप"
+  },
+  "backupDesc": {
+    "message": "अपनी सेटिंग किसी फ़ाइल में सेव करें या उन्हें किसी दूसरे कंप्यूटर पर लोड करें।"
+  },
+  "backupExport": {
+    "message": "एक्सपोर्ट"
+  },
+  "backupImport": {
+    "message": "इंपोर्ट"
+  },
+  "backupImported": {
+    "message": "सेटिंग इंपोर्ट हो गईं"
+  },
+  "backupInvalid": {
+    "message": "यह फ़ाइल Linkwash का मान्य बैकअप नहीं है।"
+  },
+  "resetSettings": {
+    "message": "डिफ़ॉल्ट पर लौटाएँ"
+  },
+  "resetSettingsDesc": {
+    "message": "सभी सेटिंग रीसेट करता है। रुकी हुई साइटें और अपने पैरामीटर हटा दिए जाते हैं।"
+  },
+  "resetSettingsBtn": {
+    "message": "रीसेट करें"
+  },
+  "resetSettingsConfirm": {
+    "message": "सभी सेटिंग डिफ़ॉल्ट पर लौटाएँ? आपकी रुकी हुई साइटें और अपने पैरामीटर हटा दिए जाएँगे।"
+  },
+  "aboutTitle": {
+    "message": "परिचय"
+  },
+  "aboutVersion": {
+    "message": "वर्शन $1"
+  },
+  "aboutText": {
+    "message": "Linkwash पेज लोड होने से पहले ही लिंक से ट्रैकिंग पैरामीटर हटा देता है। यह मुफ़्त और ओपन सोर्स है, और पूरी तरह आपके डिवाइस पर काम करता है।"
+  },
+  "aboutFactLocal": {
+    "message": "कोई खाता नहीं, कोई सर्वर नहीं, कोई डेटा संग्रह नहीं – सब कुछ आपके ब्राउज़र में रहता है।"
+  },
+  "aboutRules": {
+    "message": "$1 ट्रैकिंग पैरामीटर, साथ ही $2 लोकप्रिय साइटों के लिए अतिरिक्त नियम"
+  },
+  "aboutFactFree": {
+    "message": "मुफ़्त और ओपन सोर्स, बिना विज्ञापनों के।"
+  },
+  "aboutSource": {
+    "message": "सोर्स कोड"
+  },
+  "aboutPrivacy": {
+    "message": "निजता नीति"
+  },
+  "aboutReport": {
+    "message": "ठीक से न चलने वाली साइट की रिपोर्ट करें"
+  }
+}

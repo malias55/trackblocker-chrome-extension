@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – 清除跟踪器，还你干净链接"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "从每个链接中移除 utm_source、fbclid、gclid 等跟踪参数。快速、私密、免费，无需登录。"
+  },
+  "actionTitle": {
+    "message": "Linkwash – 清理链接"
+  },
+  "commandCopy": {
+    "message": "复制当前页面的干净链接"
+  },
+  "brandTagline": {
+    "message": "干净链接，零跟踪器。"
+  },
+  "statusProtected": {
+    "message": "已保护"
+  },
+  "statusPaused": {
+    "message": "已暂停"
+  },
+  "statusSitePaused": {
+    "message": "已在此网站暂停"
+  },
+  "toggleProtection": {
+    "message": "开启或关闭保护"
+  },
+  "heroRemovedOnPage": {
+    "message": "此页面已移除的跟踪器"
+  },
+  "heroNothingYet": {
+    "message": "此页面暂未发现跟踪器"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash 无法在浏览器页面上运行"
+  },
+  "heroPaused": {
+    "message": "保护已暂停"
+  },
+  "moreCount": {
+    "message": "另有 $1 个"
+  },
+  "siteCleanToggle": {
+    "message": "清理此网站上的链接"
+  },
+  "siteRulesFor": {
+    "message": "已启用 $1 专属规则"
+  },
+  "siteGeneralRules": {
+    "message": "已启用标准保护"
+  },
+  "siteIsPaused": {
+    "message": "不清理此网站上的链接"
+  },
+  "siteUnavailable": {
+    "message": "浏览器页面"
+  },
+  "statLinks": {
+    "message": "已清理链接"
+  },
+  "statTrackers": {
+    "message": "已移除跟踪器"
+  },
+  "statRedirects": {
+    "message": "已跳过重定向"
+  },
+  "actionCopyClean": {
+    "message": "复制干净链接"
+  },
+  "actionCopied": {
+    "message": "已复制！"
+  },
+  "actionSettings": {
+    "message": "设置"
+  },
+  "footerPrivacy": {
+    "message": "离线运行 · 无需账号 · 不收集数据"
+  },
+  "menuCopyCleanLink": {
+    "message": "复制干净链接"
+  },
+  "menuOpenCleanLink": {
+    "message": "在新标签页中打开干净链接"
+  },
+  "menuCopyCleanPage": {
+    "message": "复制此页面的干净链接"
+  },
+  "navOverview": {
+    "message": "概览"
+  },
+  "navProtection": {
+    "message": "保护"
+  },
+  "navSites": {
+    "message": "已暂停的网站"
+  },
+  "navCustom": {
+    "message": "自定义参数"
+  },
+  "navTools": {
+    "message": "链接清理"
+  },
+  "navGeneral": {
+    "message": "常规"
+  },
+  "navAbout": {
+    "message": "关于"
+  },
+  "welcomeTitle": {
+    "message": "欢迎使用 Linkwash"
+  },
+  "welcomeText": {
+    "message": "你已受到保护。从现在起，Linkwash 会移除你打开的每个链接中的跟踪器。无需任何设置，也不需要账号。"
+  },
+  "welcomeDismiss": {
+    "message": "知道了"
+  },
+  "overviewTitle": {
+    "message": "概览"
+  },
+  "overviewSubtitle": {
+    "message": "自 $1 以来 Linkwash 为你所做的。"
+  },
+  "topTrackers": {
+    "message": "最常移除的跟踪器"
+  },
+  "topSites": {
+    "message": "跟踪器最多的网站"
+  },
+  "byCategory": {
+    "message": "按类别"
+  },
+  "emptyStats": {
+    "message": "暂无数据。打开带有跟踪器的链接后，数据就会显示在这里。"
+  },
+  "resetStats": {
+    "message": "重置统计数据"
+  },
+  "resetStatsConfirm": {
+    "message": "要重置所有统计数据吗？此操作无法撤销。"
+  },
+  "protectionTitle": {
+    "message": "保护"
+  },
+  "protectionSubtitle": {
+    "message": "选择 Linkwash 要移除哪些类型的跟踪器。更改会立即生效。"
+  },
+  "cat_marketing_name": {
+    "message": "推广活动标签"
+  },
+  "cat_marketing_desc": {
+    "message": "UTM、Matomo 等推广活动参数，会告诉网站你从哪里来。"
+  },
+  "cat_ads_name": {
+    "message": "广告点击 ID"
+  },
+  "cat_ads_desc": {
+    "message": "来自 Google、Meta、Microsoft、TikTok、X 等广告网络的点击标识符。"
+  },
+  "cat_email_name": {
+    "message": "电子邮件和简报"
+  },
+  "cat_email_desc": {
+    "message": "来自 Mailchimp、HubSpot、Marketo 等邮件工具的跟踪代码。"
+  },
+  "cat_analytics_name": {
+    "message": "分析"
+  },
+  "cat_analytics_desc": {
+    "message": "来自 Google Analytics、Webtrekk、Piano 等的跨网站分析 ID。"
+  },
+  "cat_social_name": {
+    "message": "社交媒体"
+  },
+  "cat_social_desc": {
+    "message": "YouTube、Instagram、X、TikTok、Facebook、Reddit、LinkedIn、Spotify 等平台上的分享和推荐跟踪器。"
+  },
+  "cat_shopping_name": {
+    "message": "购物"
+  },
+  "cat_shopping_desc": {
+    "message": "Amazon、eBay、AliExpress、Temu、Etsy、Booking.com 等商店中的跟踪。"
+  },
+  "cat_search_name": {
+    "message": "搜索引擎"
+  },
+  "cat_search_desc": {
+    "message": "Google 和 Bing 上的会话和点击跟踪器。"
+  },
+  "cat_affiliate_name": {
+    "message": "联盟推广标签"
+  },
+  "cat_affiliate_desc": {
+    "message": "让创作者获得佣金的推荐标签。默认关闭，让你喜欢的创作者依然能获得收入。"
+  },
+  "cat_custom_name": {
+    "message": "自定义参数"
+  },
+  "paramsCount": {
+    "message": "$1 个参数"
+  },
+  "showParams": {
+    "message": "显示参数"
+  },
+  "hideParams": {
+    "message": "隐藏参数"
+  },
+  "globalParams": {
+    "message": "所有网站"
+  },
+  "featuresTitle": {
+    "message": "额外保护"
+  },
+  "featUnwrapName": {
+    "message": "跳过重定向页面"
+  },
+  "featUnwrapDesc": {
+    "message": "直接打开 Google、Facebook、YouTube、Reddit 等处包装链接的真实目标，让重定向页面无法记录你的点击。"
+  },
+  "featPingsName": {
+    "message": "阻止点击 ping"
+  },
+  "featPingsDesc": {
+    "message": "移除会告诉网站你点击了哪个链接的隐藏 ping。"
+  },
+  "featBadgeName": {
+    "message": "在图标上显示计数"
+  },
+  "featBadgeDesc": {
+    "message": "显示当前页面上已移除的跟踪器数量。"
+  },
+  "sitesTitle": {
+    "message": "已暂停的网站"
+  },
+  "sitesSubtitle": {
+    "message": "Linkwash 不会更改这些网站上的链接。如果某个网站无法正常运行，请将其添加到这里。"
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "添加网站"
+  },
+  "sitesEmpty": {
+    "message": "没有已暂停的网站。Linkwash 会在所有网站上清理链接。"
+  },
+  "sitesInvalid": {
+    "message": "请输入有效的域名，例如 example.com。"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "customTitle": {
+    "message": "自定义参数"
+  },
+  "customSubtitle": {
+    "message": "添加 Linkwash 应在所有网站上移除的参数。多个名称请用空格或逗号分隔。"
+  },
+  "customPlaceholder": {
+    "message": "例如 campaign_ref"
+  },
+  "customAdd": {
+    "message": "添加"
+  },
+  "customEmpty": {
+    "message": "你还没有添加任何参数。"
+  },
+  "customInvalid": {
+    "message": "参数名称不能包含空格或字符 & = # ?"
+  },
+  "customExists": {
+    "message": "此参数已在列表中。"
+  },
+  "toolsTitle": {
+    "message": "链接清理"
+  },
+  "toolsSubtitle": {
+    "message": "粘贴链接，查看 Linkwash 会移除哪些跟踪器，然后复制干净的版本。"
+  },
+  "toolsPlaceholder": {
+    "message": "在此粘贴链接…"
+  },
+  "toolsResult": {
+    "message": "干净链接"
+  },
+  "toolsRemoved": {
+    "message": "已移除"
+  },
+  "toolsNone": {
+    "message": "此链接已经是干净的。"
+  },
+  "toolsInvalid": {
+    "message": "这似乎不是网页链接（http 或 https）。"
+  },
+  "toolsCopy": {
+    "message": "复制"
+  },
+  "toolsUnwrapped": {
+    "message": "已跳过重定向"
+  },
+  "toastCopied": {
+    "message": "已复制干净链接"
+  },
+  "shortcutTitle": {
+    "message": "键盘快捷键"
+  },
+  "shortcutDesc": {
+    "message": "在任意页面按 $1 即可复制其干净链接。"
+  },
+  "shortcutNone": {
+    "message": "未设置快捷键。你可以在 Chrome 的快捷键设置中选择一个。"
+  },
+  "shortcutChange": {
+    "message": "更改"
+  },
+  "generalTitle": {
+    "message": "常规"
+  },
+  "languageLabel": {
+    "message": "语言"
+  },
+  "languageAuto": {
+    "message": "浏览器语言"
+  },
+  "themeLabel": {
+    "message": "外观"
+  },
+  "themeAuto": {
+    "message": "跟随系统"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "backupTitle": {
+    "message": "备份设置"
+  },
+  "backupDesc": {
+    "message": "将设置保存到文件，或在另一台电脑上加载。"
+  },
+  "backupExport": {
+    "message": "导出"
+  },
+  "backupImport": {
+    "message": "导入"
+  },
+  "backupImported": {
+    "message": "设置已导入"
+  },
+  "backupInvalid": {
+    "message": "此文件不是有效的 Linkwash 备份。"
+  },
+  "resetSettings": {
+    "message": "恢复默认设置"
+  },
+  "resetSettingsDesc": {
+    "message": "重置所有设置。已暂停的网站和自定义参数将被移除。"
+  },
+  "resetSettingsBtn": {
+    "message": "恢复"
+  },
+  "resetSettingsConfirm": {
+    "message": "要将所有设置恢复为默认值吗？你暂停的网站和自定义参数将被移除。"
+  },
+  "aboutTitle": {
+    "message": "关于"
+  },
+  "aboutVersion": {
+    "message": "版本 $1"
+  },
+  "aboutText": {
+    "message": "Linkwash 会在页面加载之前移除链接中的跟踪参数。它免费、开源，并且完全在你的设备上运行。"
+  },
+  "aboutFactLocal": {
+    "message": "无需账号，没有服务器，不收集数据，一切都保留在你的浏览器中。"
+  },
+  "aboutRules": {
+    "message": "$1 个跟踪参数，另有针对 $2 个热门网站的额外规则"
+  },
+  "aboutFactFree": {
+    "message": "免费开源，无广告。"
+  },
+  "aboutSource": {
+    "message": "源代码"
+  },
+  "aboutPrivacy": {
+    "message": "隐私政策"
+  },
+  "aboutReport": {
+    "message": "报告网站异常"
+  }
+}

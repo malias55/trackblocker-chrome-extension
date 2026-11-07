@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – إزالة أدوات التتبع من الروابط"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "يزيل معلمات التتبع مثل utm_source وfbclid وgclid من كل رابط. سريع وخاص ومجاني – دون تسجيل دخول."
+  },
+  "actionTitle": {
+    "message": "Linkwash – تنظيف الروابط"
+  },
+  "commandCopy": {
+    "message": "نسخ رابط نظيف للصفحة الحالية"
+  },
+  "brandTagline": {
+    "message": "روابط نظيفة. بلا أدوات تتبع."
+  },
+  "statusProtected": {
+    "message": "محمي"
+  },
+  "statusPaused": {
+    "message": "متوقف مؤقتًا"
+  },
+  "statusSitePaused": {
+    "message": "متوقف مؤقتًا على هذا الموقع"
+  },
+  "toggleProtection": {
+    "message": "تشغيل الحماية أو إيقافها"
+  },
+  "heroRemovedOnPage": {
+    "message": "أدوات تتبع أُزيلت من هذه الصفحة"
+  },
+  "heroNothingYet": {
+    "message": "لا توجد أدوات تتبع في هذه الصفحة حتى الآن"
+  },
+  "heroUnavailable": {
+    "message": "لا يعمل Linkwash على صفحات المتصفح"
+  },
+  "heroPaused": {
+    "message": "الحماية متوقفة مؤقتًا"
+  },
+  "moreCount": {
+    "message": "+$1 أخرى"
+  },
+  "siteCleanToggle": {
+    "message": "تنظيف الروابط على هذا الموقع"
+  },
+  "siteRulesFor": {
+    "message": "قواعد إضافية مفعّلة لـ $1"
+  },
+  "siteGeneralRules": {
+    "message": "الحماية العادية مفعّلة"
+  },
+  "siteIsPaused": {
+    "message": "لا يتم تنظيف الروابط على هذا الموقع"
+  },
+  "siteUnavailable": {
+    "message": "صفحة متصفح"
+  },
+  "statLinks": {
+    "message": "روابط نُظّفت"
+  },
+  "statTrackers": {
+    "message": "أدوات تتبع أُزيلت"
+  },
+  "statRedirects": {
+    "message": "تحويلات تم تخطيها"
+  },
+  "actionCopyClean": {
+    "message": "نسخ الرابط النظيف"
+  },
+  "actionCopied": {
+    "message": "تم النسخ!"
+  },
+  "actionSettings": {
+    "message": "الإعدادات"
+  },
+  "footerPrivacy": {
+    "message": "يعمل دون إنترنت · بلا حساب · بلا جمع بيانات"
+  },
+  "menuCopyCleanLink": {
+    "message": "نسخ الرابط النظيف"
+  },
+  "menuOpenCleanLink": {
+    "message": "فتح الرابط النظيف في علامة تبويب جديدة"
+  },
+  "menuCopyCleanPage": {
+    "message": "نسخ الرابط النظيف لهذه الصفحة"
+  },
+  "navOverview": {
+    "message": "نظرة عامة"
+  },
+  "navProtection": {
+    "message": "الحماية"
+  },
+  "navSites": {
+    "message": "مواقع متوقفة"
+  },
+  "navCustom": {
+    "message": "معلمات خاصة"
+  },
+  "navTools": {
+    "message": "منظف الروابط"
+  },
+  "navGeneral": {
+    "message": "عام"
+  },
+  "navAbout": {
+    "message": "حول"
+  },
+  "welcomeTitle": {
+    "message": "مرحبًا بك في Linkwash"
+  },
+  "welcomeText": {
+    "message": "أنت محمي الآن. من الآن فصاعدًا يزيل Linkwash أدوات التتبع من كل رابط تفتحه. لا حاجة إلى أي إعداد ولا إلى حساب."
+  },
+  "welcomeDismiss": {
+    "message": "حسنًا"
+  },
+  "overviewTitle": {
+    "message": "نظرة عامة"
+  },
+  "overviewSubtitle": {
+    "message": "ما قام به Linkwash من أجلك منذ $1."
+  },
+  "topTrackers": {
+    "message": "أكثر أدوات التتبع إزالةً"
+  },
+  "topSites": {
+    "message": "المواقع الأكثر احتواءً على أدوات التتبع"
+  },
+  "byCategory": {
+    "message": "حسب الفئة"
+  },
+  "emptyStats": {
+    "message": "لا شيء بعد. افتح رابطًا يحتوي على أدوات تتبع وستظهر هنا."
+  },
+  "resetStats": {
+    "message": "إعادة تعيين الإحصاءات"
+  },
+  "resetStatsConfirm": {
+    "message": "هل تريد إعادة تعيين جميع الإحصاءات؟ لا يمكن التراجع عن ذلك."
+  },
+  "protectionTitle": {
+    "message": "الحماية"
+  },
+  "protectionSubtitle": {
+    "message": "اختر أنواع أدوات التتبع التي يزيلها Linkwash. تُطبَّق التغييرات فورًا."
+  },
+  "cat_marketing_name": {
+    "message": "وسوم الحملات"
+  },
+  "cat_marketing_desc": {
+    "message": "معلمات UTM وMatomo وغيرها من معلمات الحملات التي تُخبر الموقع من أين أتيت."
+  },
+  "cat_ads_name": {
+    "message": "معرّفات نقرات الإعلانات"
+  },
+  "cat_ads_desc": {
+    "message": "معرّفات النقرات من Google وMeta وMicrosoft وTikTok وX وغيرها من شبكات الإعلانات."
+  },
+  "cat_email_name": {
+    "message": "البريد والنشرات"
+  },
+  "cat_email_desc": {
+    "message": "رموز التتبع من Mailchimp وHubSpot وMarketo وغيرها من أدوات البريد الإلكتروني."
+  },
+  "cat_analytics_name": {
+    "message": "التحليلات"
+  },
+  "cat_analytics_desc": {
+    "message": "معرّفات التحليلات عبر المواقع من Google Analytics وWebtrekk وPiano وغيرها."
+  },
+  "cat_social_name": {
+    "message": "التواصل الاجتماعي"
+  },
+  "cat_social_desc": {
+    "message": "أدوات تتبع المشاركة والإحالة على YouTube وInstagram وX وTikTok وFacebook وReddit وLinkedIn وSpotify وغيرها."
+  },
+  "cat_shopping_name": {
+    "message": "التسوق"
+  },
+  "cat_shopping_desc": {
+    "message": "التتبع على Amazon وeBay وAliExpress وTemu وEtsy وBooking.com وغيرها من المتاجر."
+  },
+  "cat_search_name": {
+    "message": "محركات البحث"
+  },
+  "cat_search_desc": {
+    "message": "أدوات تتبع الجلسات والنقرات على Google وBing."
+  },
+  "cat_affiliate_name": {
+    "message": "وسوم التسويق بالعمولة"
+  },
+  "cat_affiliate_desc": {
+    "message": "وسوم إحالة تمنح صنّاع المحتوى عمولة. مُعطّلة افتراضيًا ليواصل صنّاع المحتوى الذين تحبهم الحصول على أجرهم."
+  },
+  "cat_custom_name": {
+    "message": "معلمات خاصة"
+  },
+  "paramsCount": {
+    "message": "المعلمات: $1"
+  },
+  "showParams": {
+    "message": "إظهار المعلمات"
+  },
+  "hideParams": {
+    "message": "إخفاء المعلمات"
+  },
+  "globalParams": {
+    "message": "جميع المواقع"
+  },
+  "featuresTitle": {
+    "message": "حماية إضافية"
+  },
+  "featUnwrapName": {
+    "message": "تخطي صفحات التحويل"
+  },
+  "featUnwrapDesc": {
+    "message": "يفتح الوجهة الحقيقية للروابط المغلّفة من Google وFacebook وYouTube وReddit وغيرها مباشرةً، حتى لا تتمكن صفحة التحويل من تسجيل نقرتك."
+  },
+  "featPingsName": {
+    "message": "حظر إشارات النقر"
+  },
+  "featPingsDesc": {
+    "message": "يزيل الإشارات المخفية التي تُخبر الموقع بالرابط الذي نقرت عليه."
+  },
+  "featBadgeName": {
+    "message": "إظهار العدّاد على الأيقونة"
+  },
+  "featBadgeDesc": {
+    "message": "يعرض عدد أدوات التتبع التي أُزيلت من الصفحة الحالية."
+  },
+  "sitesTitle": {
+    "message": "المواقع المتوقفة"
+  },
+  "sitesSubtitle": {
+    "message": "لا يغيّر Linkwash الروابط على هذه المواقع. أضف موقعًا هنا إذا توقف عن العمل بشكل صحيح."
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "إضافة موقع"
+  },
+  "sitesEmpty": {
+    "message": "لا توجد مواقع متوقفة. ينظّف Linkwash الروابط في كل مكان."
+  },
+  "sitesInvalid": {
+    "message": "أدخل نطاقًا صالحًا، مثل example.com."
+  },
+  "remove": {
+    "message": "إزالة"
+  },
+  "customTitle": {
+    "message": "معلمات خاصة"
+  },
+  "customSubtitle": {
+    "message": "أضف المعلمات التي يجب أن يزيلها Linkwash من كل موقع. افصل بين الأسماء المتعددة بمسافات أو فواصل."
+  },
+  "customPlaceholder": {
+    "message": "مثال: campaign_ref"
+  },
+  "customAdd": {
+    "message": "إضافة"
+  },
+  "customEmpty": {
+    "message": "لم تُضف أي معلمات بعد."
+  },
+  "customInvalid": {
+    "message": "لا يمكن أن تحتوي أسماء المعلمات على مسافات أو الأحرف & = # ?"
+  },
+  "customExists": {
+    "message": "هذه المعلمة موجودة في القائمة بالفعل."
+  },
+  "toolsTitle": {
+    "message": "منظف الروابط"
+  },
+  "toolsSubtitle": {
+    "message": "الصق رابطًا لترى أدوات التتبع التي يزيلها Linkwash، ثم انسخ النسخة النظيفة."
+  },
+  "toolsPlaceholder": {
+    "message": "الصق رابطًا هنا…"
+  },
+  "toolsResult": {
+    "message": "الرابط النظيف"
+  },
+  "toolsRemoved": {
+    "message": "المُزال"
+  },
+  "toolsNone": {
+    "message": "هذا الرابط نظيف بالفعل."
+  },
+  "toolsInvalid": {
+    "message": "لا يبدو هذا رابط ويب (http أو https)."
+  },
+  "toolsCopy": {
+    "message": "نسخ"
+  },
+  "toolsUnwrapped": {
+    "message": "تم تخطي التحويل"
+  },
+  "toastCopied": {
+    "message": "تم نسخ الرابط النظيف"
+  },
+  "shortcutTitle": {
+    "message": "اختصار لوحة المفاتيح"
+  },
+  "shortcutDesc": {
+    "message": "اضغط على $1 في أي صفحة لنسخ رابطها النظيف."
+  },
+  "shortcutNone": {
+    "message": "لم يتم تعيين اختصار. يمكنك اختيار واحد في إعدادات اختصارات Chrome."
+  },
+  "shortcutChange": {
+    "message": "تغيير"
+  },
+  "generalTitle": {
+    "message": "عام"
+  },
+  "languageLabel": {
+    "message": "اللغة"
+  },
+  "languageAuto": {
+    "message": "لغة المتصفح"
+  },
+  "themeLabel": {
+    "message": "المظهر"
+  },
+  "themeAuto": {
+    "message": "النظام"
+  },
+  "themeLight": {
+    "message": "فاتح"
+  },
+  "themeDark": {
+    "message": "داكن"
+  },
+  "backupTitle": {
+    "message": "نسخ الإعدادات احتياطيًا"
+  },
+  "backupDesc": {
+    "message": "احفظ إعداداتك في ملف أو حمّلها على كمبيوتر آخر."
+  },
+  "backupExport": {
+    "message": "تصدير"
+  },
+  "backupImport": {
+    "message": "استيراد"
+  },
+  "backupImported": {
+    "message": "تم استيراد الإعدادات"
+  },
+  "backupInvalid": {
+    "message": "هذا الملف ليس نسخة احتياطية صالحة من Linkwash."
+  },
+  "resetSettings": {
+    "message": "استعادة الإعدادات الافتراضية"
+  },
+  "resetSettingsDesc": {
+    "message": "يعيد تعيين جميع الإعدادات. ستُزال المواقع المتوقفة والمعلمات الخاصة."
+  },
+  "resetSettingsBtn": {
+    "message": "استعادة"
+  },
+  "resetSettingsConfirm": {
+    "message": "هل تريد استعادة جميع الإعدادات الافتراضية؟ ستُزال مواقعك المتوقفة ومعلماتك الخاصة."
+  },
+  "aboutTitle": {
+    "message": "حول"
+  },
+  "aboutVersion": {
+    "message": "الإصدار $1"
+  },
+  "aboutText": {
+    "message": "يزيل Linkwash معلمات التتبع من الروابط قبل أن تبدأ الصفحة في التحميل. إنه مجاني ومفتوح المصدر ويعمل بالكامل على جهازك."
+  },
+  "aboutFactLocal": {
+    "message": "بلا حساب ولا خوادم ولا جمع بيانات – يبقى كل شيء في متصفحك."
+  },
+  "aboutRules": {
+    "message": "معلمات التتبع: $1، مع قواعد إضافية لمواقع شائعة: $2"
+  },
+  "aboutFactFree": {
+    "message": "مجاني ومفتوح المصدر وبلا إعلانات."
+  },
+  "aboutSource": {
+    "message": "الشيفرة المصدرية"
+  },
+  "aboutPrivacy": {
+    "message": "سياسة الخصوصية"
+  },
+  "aboutReport": {
+    "message": "الإبلاغ عن موقع لا يعمل"
+  }
+}

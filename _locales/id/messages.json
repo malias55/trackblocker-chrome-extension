@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – Penghapus Pelacak untuk Link Bersih"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "Menghapus parameter pelacakan seperti utm_source, fbclid, dan gclid dari setiap link. Cepat, privat, gratis – tanpa login."
+  },
+  "actionTitle": {
+    "message": "Linkwash – bersihkan link"
+  },
+  "commandCopy": {
+    "message": "Salin link bersih halaman ini"
+  },
+  "brandTagline": {
+    "message": "Link bersih. Tanpa pelacak."
+  },
+  "statusProtected": {
+    "message": "Terlindungi"
+  },
+  "statusPaused": {
+    "message": "Dijeda"
+  },
+  "statusSitePaused": {
+    "message": "Dijeda di situs ini"
+  },
+  "toggleProtection": {
+    "message": "Aktifkan atau nonaktifkan perlindungan"
+  },
+  "heroRemovedOnPage": {
+    "message": "pelacak dihapus di halaman ini"
+  },
+  "heroNothingYet": {
+    "message": "Belum ada pelacak di halaman ini"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash tidak berfungsi di halaman browser"
+  },
+  "heroPaused": {
+    "message": "Perlindungan dijeda"
+  },
+  "moreCount": {
+    "message": "+$1 lainnya"
+  },
+  "siteCleanToggle": {
+    "message": "Bersihkan link di situs ini"
+  },
+  "siteRulesFor": {
+    "message": "Aturan tambahan untuk $1 aktif"
+  },
+  "siteGeneralRules": {
+    "message": "Perlindungan standar aktif"
+  },
+  "siteIsPaused": {
+    "message": "Link di situs ini tidak dibersihkan"
+  },
+  "siteUnavailable": {
+    "message": "Halaman browser"
+  },
+  "statLinks": {
+    "message": "Link dibersihkan"
+  },
+  "statTrackers": {
+    "message": "Pelacak dihapus"
+  },
+  "statRedirects": {
+    "message": "Pengalihan dilewati"
+  },
+  "actionCopyClean": {
+    "message": "Salin link bersih"
+  },
+  "actionCopied": {
+    "message": "Disalin!"
+  },
+  "actionSettings": {
+    "message": "Setelan"
+  },
+  "footerPrivacy": {
+    "message": "Berfungsi offline · Tanpa akun · Tanpa pengumpulan data"
+  },
+  "menuCopyCleanLink": {
+    "message": "Salin link bersih"
+  },
+  "menuOpenCleanLink": {
+    "message": "Buka link bersih di tab baru"
+  },
+  "menuCopyCleanPage": {
+    "message": "Salin link bersih halaman ini"
+  },
+  "navOverview": {
+    "message": "Ringkasan"
+  },
+  "navProtection": {
+    "message": "Perlindungan"
+  },
+  "navSites": {
+    "message": "Situs dijeda"
+  },
+  "navCustom": {
+    "message": "Parameter sendiri"
+  },
+  "navTools": {
+    "message": "Pembersih link"
+  },
+  "navGeneral": {
+    "message": "Umum"
+  },
+  "navAbout": {
+    "message": "Tentang"
+  },
+  "welcomeTitle": {
+    "message": "Selamat datang di Linkwash"
+  },
+  "welcomeText": {
+    "message": "Anda sudah terlindungi. Mulai sekarang, Linkwash menghapus pelacak dari setiap link yang Anda buka. Tidak ada yang perlu diatur dan Anda tidak perlu akun."
+  },
+  "welcomeDismiss": {
+    "message": "Mengerti"
+  },
+  "overviewTitle": {
+    "message": "Ringkasan"
+  },
+  "overviewSubtitle": {
+    "message": "Yang telah dilakukan Linkwash untuk Anda sejak $1."
+  },
+  "topTrackers": {
+    "message": "Pelacak yang paling sering dihapus"
+  },
+  "topSites": {
+    "message": "Situs dengan pelacak terbanyak"
+  },
+  "byCategory": {
+    "message": "Menurut kategori"
+  },
+  "emptyStats": {
+    "message": "Belum ada apa-apa. Buka link yang berisi pelacak, dan hasilnya akan muncul di sini."
+  },
+  "resetStats": {
+    "message": "Reset statistik"
+  },
+  "resetStatsConfirm": {
+    "message": "Reset semua statistik? Tindakan ini tidak dapat dibatalkan."
+  },
+  "protectionTitle": {
+    "message": "Perlindungan"
+  },
+  "protectionSubtitle": {
+    "message": "Pilih jenis pelacak yang dihapus Linkwash. Perubahan langsung diterapkan."
+  },
+  "cat_marketing_name": {
+    "message": "Tag kampanye"
+  },
+  "cat_marketing_desc": {
+    "message": "UTM, Matomo, dan parameter kampanye lain yang memberi tahu situs dari mana Anda datang."
+  },
+  "cat_ads_name": {
+    "message": "ID klik iklan"
+  },
+  "cat_ads_desc": {
+    "message": "Pengenal klik dari Google, Meta, Microsoft, TikTok, X, dan jaringan iklan lainnya."
+  },
+  "cat_email_name": {
+    "message": "Email & newsletter"
+  },
+  "cat_email_desc": {
+    "message": "Kode pelacakan dari Mailchimp, HubSpot, Marketo, dan alat email lainnya."
+  },
+  "cat_analytics_name": {
+    "message": "Analitik"
+  },
+  "cat_analytics_desc": {
+    "message": "ID analitik lintas situs dari Google Analytics, Webtrekk, Piano, dan lainnya."
+  },
+  "cat_social_name": {
+    "message": "Media sosial"
+  },
+  "cat_social_desc": {
+    "message": "Pelacak berbagi dan rujukan di YouTube, Instagram, X, TikTok, Facebook, Reddit, LinkedIn, Spotify, dan lainnya."
+  },
+  "cat_shopping_name": {
+    "message": "Belanja"
+  },
+  "cat_shopping_desc": {
+    "message": "Pelacakan di Amazon, eBay, AliExpress, Temu, Etsy, Booking.com, dan toko lainnya."
+  },
+  "cat_search_name": {
+    "message": "Mesin telusur"
+  },
+  "cat_search_desc": {
+    "message": "Pelacak sesi dan klik di Google dan Bing."
+  },
+  "cat_affiliate_name": {
+    "message": "Tag afiliasi"
+  },
+  "cat_affiliate_desc": {
+    "message": "Tag rujukan yang memberi kreator komisi. Nonaktif secara default, agar kreator favorit Anda tetap mendapat bayaran."
+  },
+  "cat_custom_name": {
+    "message": "Parameter sendiri"
+  },
+  "paramsCount": {
+    "message": "$1 parameter"
+  },
+  "showParams": {
+    "message": "Tampilkan parameter"
+  },
+  "hideParams": {
+    "message": "Sembunyikan parameter"
+  },
+  "globalParams": {
+    "message": "Semua situs"
+  },
+  "featuresTitle": {
+    "message": "Perlindungan ekstra"
+  },
+  "featUnwrapName": {
+    "message": "Lewati halaman pengalihan"
+  },
+  "featUnwrapDesc": {
+    "message": "Langsung membuka tujuan asli link terbungkus dari Google, Facebook, YouTube, Reddit, dan lainnya, sehingga halaman pengalihan tidak dapat mencatat klik Anda."
+  },
+  "featPingsName": {
+    "message": "Blokir ping klik"
+  },
+  "featPingsDesc": {
+    "message": "Menghapus ping tersembunyi yang memberi tahu situs link mana yang Anda klik."
+  },
+  "featBadgeName": {
+    "message": "Tampilkan penghitung di ikon"
+  },
+  "featBadgeDesc": {
+    "message": "Menampilkan jumlah pelacak yang dihapus di halaman saat ini."
+  },
+  "sitesTitle": {
+    "message": "Situs dijeda"
+  },
+  "sitesSubtitle": {
+    "message": "Linkwash tidak mengubah link di situs-situs ini. Tambahkan situs di sini jika situs tersebut tidak lagi berfungsi dengan benar."
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "Tambah situs"
+  },
+  "sitesEmpty": {
+    "message": "Tidak ada situs yang dijeda. Linkwash membersihkan link di mana saja."
+  },
+  "sitesInvalid": {
+    "message": "Masukkan domain yang valid, misalnya example.com."
+  },
+  "remove": {
+    "message": "Hapus"
+  },
+  "customTitle": {
+    "message": "Parameter sendiri"
+  },
+  "customSubtitle": {
+    "message": "Tambahkan parameter yang harus dihapus Linkwash di setiap situs. Pisahkan beberapa nama dengan spasi atau koma."
+  },
+  "customPlaceholder": {
+    "message": "mis. campaign_ref"
+  },
+  "customAdd": {
+    "message": "Tambah"
+  },
+  "customEmpty": {
+    "message": "Anda belum menambahkan parameter apa pun."
+  },
+  "customInvalid": {
+    "message": "Nama parameter tidak boleh berisi spasi atau karakter & = # ?"
+  },
+  "customExists": {
+    "message": "Parameter ini sudah ada di daftar."
+  },
+  "toolsTitle": {
+    "message": "Pembersih link"
+  },
+  "toolsSubtitle": {
+    "message": "Tempel link untuk melihat pelacak yang dihapus Linkwash, lalu salin versi bersihnya."
+  },
+  "toolsPlaceholder": {
+    "message": "Tempel link di sini…"
+  },
+  "toolsResult": {
+    "message": "Link bersih"
+  },
+  "toolsRemoved": {
+    "message": "Dihapus"
+  },
+  "toolsNone": {
+    "message": "Link ini sudah bersih."
+  },
+  "toolsInvalid": {
+    "message": "Ini sepertinya bukan link web (http atau https)."
+  },
+  "toolsCopy": {
+    "message": "Salin"
+  },
+  "toolsUnwrapped": {
+    "message": "Pengalihan dilewati"
+  },
+  "toastCopied": {
+    "message": "Link bersih disalin"
+  },
+  "shortcutTitle": {
+    "message": "Pintasan keyboard"
+  },
+  "shortcutDesc": {
+    "message": "Tekan $1 di halaman mana pun untuk menyalin link bersihnya."
+  },
+  "shortcutNone": {
+    "message": "Belum ada pintasan. Anda dapat memilihnya di setelan pintasan Chrome."
+  },
+  "shortcutChange": {
+    "message": "Ubah"
+  },
+  "generalTitle": {
+    "message": "Umum"
+  },
+  "languageLabel": {
+    "message": "Bahasa"
+  },
+  "languageAuto": {
+    "message": "Bahasa browser"
+  },
+  "themeLabel": {
+    "message": "Tampilan"
+  },
+  "themeAuto": {
+    "message": "Sistem"
+  },
+  "themeLight": {
+    "message": "Terang"
+  },
+  "themeDark": {
+    "message": "Gelap"
+  },
+  "backupTitle": {
+    "message": "Cadangkan setelan"
+  },
+  "backupDesc": {
+    "message": "Simpan setelan Anda ke file atau muat di komputer lain."
+  },
+  "backupExport": {
+    "message": "Ekspor"
+  },
+  "backupImport": {
+    "message": "Impor"
+  },
+  "backupImported": {
+    "message": "Setelan diimpor"
+  },
+  "backupInvalid": {
+    "message": "File ini bukan cadangan Linkwash yang valid."
+  },
+  "resetSettings": {
+    "message": "Pulihkan default"
+  },
+  "resetSettingsDesc": {
+    "message": "Mereset semua setelan. Situs yang dijeda dan parameter sendiri akan dihapus."
+  },
+  "resetSettingsBtn": {
+    "message": "Pulihkan"
+  },
+  "resetSettingsConfirm": {
+    "message": "Pulihkan semua setelan ke default? Situs yang dijeda dan parameter sendiri Anda akan dihapus."
+  },
+  "aboutTitle": {
+    "message": "Tentang"
+  },
+  "aboutVersion": {
+    "message": "Versi $1"
+  },
+  "aboutText": {
+    "message": "Linkwash menghapus parameter pelacakan dari link bahkan sebelum halaman dimuat. Gratis, open source, dan sepenuhnya berjalan di perangkat Anda."
+  },
+  "aboutFactLocal": {
+    "message": "Tanpa akun, tanpa server, tanpa pengumpulan data – semuanya tetap di browser Anda."
+  },
+  "aboutRules": {
+    "message": "$1 parameter pelacakan, dengan aturan tambahan untuk $2 situs populer"
+  },
+  "aboutFactFree": {
+    "message": "Gratis dan open source, tanpa iklan."
+  },
+  "aboutSource": {
+    "message": "Kode sumber"
+  },
+  "aboutPrivacy": {
+    "message": "Kebijakan privasi"
+  },
+  "aboutReport": {
+    "message": "Laporkan situs bermasalah"
+  }
+}

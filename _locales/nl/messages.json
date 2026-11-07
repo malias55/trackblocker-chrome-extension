@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – Verwijdert trackers voor schone links"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "Verwijdert trackingparameters zoals utm_source, fbclid en gclid uit elke link. Snel, privé, gratis – zonder inloggen."
+  },
+  "actionTitle": {
+    "message": "Linkwash – links opschonen"
+  },
+  "commandCopy": {
+    "message": "Schone link van de huidige pagina kopiëren"
+  },
+  "brandTagline": {
+    "message": "Schone links. Nul trackers."
+  },
+  "statusProtected": {
+    "message": "Beschermd"
+  },
+  "statusPaused": {
+    "message": "Gepauzeerd"
+  },
+  "statusSitePaused": {
+    "message": "Gepauzeerd op deze site"
+  },
+  "toggleProtection": {
+    "message": "Bescherming aan- of uitzetten"
+  },
+  "heroRemovedOnPage": {
+    "message": "trackers verwijderd op deze pagina"
+  },
+  "heroNothingYet": {
+    "message": "Nog geen trackers op deze pagina"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash werkt niet op browserpagina's"
+  },
+  "heroPaused": {
+    "message": "Bescherming is gepauzeerd"
+  },
+  "moreCount": {
+    "message": "+$1 meer"
+  },
+  "siteCleanToggle": {
+    "message": "Links op deze site opschonen"
+  },
+  "siteRulesFor": {
+    "message": "Extra regels voor $1 actief"
+  },
+  "siteGeneralRules": {
+    "message": "Standaardbescherming actief"
+  },
+  "siteIsPaused": {
+    "message": "Links op deze site worden niet opgeschoond"
+  },
+  "siteUnavailable": {
+    "message": "Browserpagina"
+  },
+  "statLinks": {
+    "message": "Links opgeschoond"
+  },
+  "statTrackers": {
+    "message": "Trackers verwijderd"
+  },
+  "statRedirects": {
+    "message": "Omleidingen overgeslagen"
+  },
+  "actionCopyClean": {
+    "message": "Schone link kopiëren"
+  },
+  "actionCopied": {
+    "message": "Gekopieerd!"
+  },
+  "actionSettings": {
+    "message": "Instellingen"
+  },
+  "footerPrivacy": {
+    "message": "Werkt offline · Geen account · Geen dataverzameling"
+  },
+  "menuCopyCleanLink": {
+    "message": "Schone link kopiëren"
+  },
+  "menuOpenCleanLink": {
+    "message": "Schone link openen in nieuw tabblad"
+  },
+  "menuCopyCleanPage": {
+    "message": "Schone link van deze pagina kopiëren"
+  },
+  "navOverview": {
+    "message": "Overzicht"
+  },
+  "navProtection": {
+    "message": "Bescherming"
+  },
+  "navSites": {
+    "message": "Gepauzeerde sites"
+  },
+  "navCustom": {
+    "message": "Eigen parameters"
+  },
+  "navTools": {
+    "message": "Linkreiniger"
+  },
+  "navGeneral": {
+    "message": "Algemeen"
+  },
+  "navAbout": {
+    "message": "Over"
+  },
+  "welcomeTitle": {
+    "message": "Welkom bij Linkwash"
+  },
+  "welcomeText": {
+    "message": "Je bent beschermd. Vanaf nu verwijdert Linkwash trackers uit elke link die je opent. Je hoeft niets in te stellen en je hebt geen account nodig."
+  },
+  "welcomeDismiss": {
+    "message": "Begrepen"
+  },
+  "overviewTitle": {
+    "message": "Overzicht"
+  },
+  "overviewSubtitle": {
+    "message": "Wat Linkwash sinds $1 voor je heeft gedaan."
+  },
+  "topTrackers": {
+    "message": "Vaakst verwijderde trackers"
+  },
+  "topSites": {
+    "message": "Sites met de meeste trackers"
+  },
+  "byCategory": {
+    "message": "Per categorie"
+  },
+  "emptyStats": {
+    "message": "Nog niets. Open een link met trackers en die verschijnt hier."
+  },
+  "resetStats": {
+    "message": "Statistieken wissen"
+  },
+  "resetStatsConfirm": {
+    "message": "Alle statistieken wissen? Dit kan niet ongedaan worden gemaakt."
+  },
+  "protectionTitle": {
+    "message": "Bescherming"
+  },
+  "protectionSubtitle": {
+    "message": "Kies welke soorten trackers Linkwash verwijdert. Wijzigingen gelden meteen."
+  },
+  "cat_marketing_name": {
+    "message": "Campagnetags"
+  },
+  "cat_marketing_desc": {
+    "message": "UTM-, Matomo- en andere campagneparameters die een site vertellen waar je vandaan komt."
+  },
+  "cat_ads_name": {
+    "message": "Advertentieklik-ID's"
+  },
+  "cat_ads_desc": {
+    "message": "Klik-ID's van Google, Meta, Microsoft, TikTok, X en andere advertentienetwerken."
+  },
+  "cat_email_name": {
+    "message": "E-mail & nieuwsbrieven"
+  },
+  "cat_email_desc": {
+    "message": "Trackingcodes van Mailchimp, HubSpot, Marketo en andere e-mailtools."
+  },
+  "cat_analytics_name": {
+    "message": "Analyse"
+  },
+  "cat_analytics_desc": {
+    "message": "Cross-site analyse-ID's van Google Analytics, Webtrekk, Piano en anderen."
+  },
+  "cat_social_name": {
+    "message": "Sociale media"
+  },
+  "cat_social_desc": {
+    "message": "Deel- en doorverwijstrackers op YouTube, Instagram, X, TikTok, Facebook, Reddit, LinkedIn, Spotify en meer."
+  },
+  "cat_shopping_name": {
+    "message": "Winkelen"
+  },
+  "cat_shopping_desc": {
+    "message": "Tracking op Amazon, eBay, AliExpress, Temu, Etsy, Booking.com en andere webwinkels."
+  },
+  "cat_search_name": {
+    "message": "Zoekmachines"
+  },
+  "cat_search_desc": {
+    "message": "Sessie- en kliktrackers op Google en Bing."
+  },
+  "cat_affiliate_name": {
+    "message": "Affiliatetags"
+  },
+  "cat_affiliate_desc": {
+    "message": "Doorverwijstags waarmee makers commissie verdienen. Standaard uit, zodat de makers die je leuk vindt nog steeds betaald krijgen."
+  },
+  "cat_custom_name": {
+    "message": "Eigen parameters"
+  },
+  "paramsCount": {
+    "message": "$1 parameters"
+  },
+  "showParams": {
+    "message": "Parameters tonen"
+  },
+  "hideParams": {
+    "message": "Parameters verbergen"
+  },
+  "globalParams": {
+    "message": "Alle websites"
+  },
+  "featuresTitle": {
+    "message": "Extra bescherming"
+  },
+  "featUnwrapName": {
+    "message": "Omleidingspagina's overslaan"
+  },
+  "featUnwrapDesc": {
+    "message": "Opent de echte bestemming van verpakte links van Google, Facebook, YouTube, Reddit en anderen direct, zodat de omleidingspagina je klik niet kan registreren."
+  },
+  "featPingsName": {
+    "message": "Klikpings blokkeren"
+  },
+  "featPingsDesc": {
+    "message": "Verwijdert verborgen pings die een website vertellen op welke link je hebt geklikt."
+  },
+  "featBadgeName": {
+    "message": "Teller op het icoon tonen"
+  },
+  "featBadgeDesc": {
+    "message": "Toont hoeveel trackers er op de huidige pagina zijn verwijderd."
+  },
+  "sitesTitle": {
+    "message": "Gepauzeerde sites"
+  },
+  "sitesSubtitle": {
+    "message": "Linkwash wijzigt geen links op deze sites. Voeg hier een site toe als die niet meer goed werkt."
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "Site toevoegen"
+  },
+  "sitesEmpty": {
+    "message": "Geen gepauzeerde sites. Linkwash schoont overal links op."
+  },
+  "sitesInvalid": {
+    "message": "Voer een geldig domein in, bijvoorbeeld example.com."
+  },
+  "remove": {
+    "message": "Verwijderen"
+  },
+  "customTitle": {
+    "message": "Eigen parameters"
+  },
+  "customSubtitle": {
+    "message": "Voeg parameters toe die Linkwash op elke website moet verwijderen. Scheid meerdere namen met spaties of komma's."
+  },
+  "customPlaceholder": {
+    "message": "bijv. campaign_ref"
+  },
+  "customAdd": {
+    "message": "Toevoegen"
+  },
+  "customEmpty": {
+    "message": "Je hebt nog geen parameters toegevoegd."
+  },
+  "customInvalid": {
+    "message": "Parameternamen mogen geen spaties of de tekens & = # ? bevatten"
+  },
+  "customExists": {
+    "message": "Deze parameter staat al in de lijst."
+  },
+  "toolsTitle": {
+    "message": "Linkreiniger"
+  },
+  "toolsSubtitle": {
+    "message": "Plak een link om te zien welke trackers Linkwash verwijdert en kopieer daarna de schone versie."
+  },
+  "toolsPlaceholder": {
+    "message": "Plak hier een link…"
+  },
+  "toolsResult": {
+    "message": "Schone link"
+  },
+  "toolsRemoved": {
+    "message": "Verwijderd"
+  },
+  "toolsNone": {
+    "message": "Deze link is al schoon."
+  },
+  "toolsInvalid": {
+    "message": "Dit lijkt geen weblink (http of https)."
+  },
+  "toolsCopy": {
+    "message": "Kopiëren"
+  },
+  "toolsUnwrapped": {
+    "message": "Omleiding overgeslagen"
+  },
+  "toastCopied": {
+    "message": "Schone link gekopieerd"
+  },
+  "shortcutTitle": {
+    "message": "Sneltoets"
+  },
+  "shortcutDesc": {
+    "message": "Druk op $1 op een willekeurige pagina om de schone link te kopiëren."
+  },
+  "shortcutNone": {
+    "message": "Geen sneltoets ingesteld. Je kunt er een kiezen in de sneltoetsinstellingen van Chrome."
+  },
+  "shortcutChange": {
+    "message": "Wijzigen"
+  },
+  "generalTitle": {
+    "message": "Algemeen"
+  },
+  "languageLabel": {
+    "message": "Taal"
+  },
+  "languageAuto": {
+    "message": "Browsertaal"
+  },
+  "themeLabel": {
+    "message": "Weergave"
+  },
+  "themeAuto": {
+    "message": "Systeem"
+  },
+  "themeLight": {
+    "message": "Licht"
+  },
+  "themeDark": {
+    "message": "Donker"
+  },
+  "backupTitle": {
+    "message": "Back-up van instellingen"
+  },
+  "backupDesc": {
+    "message": "Sla je instellingen op in een bestand of laad ze op een andere computer."
+  },
+  "backupExport": {
+    "message": "Exporteren"
+  },
+  "backupImport": {
+    "message": "Importeren"
+  },
+  "backupImported": {
+    "message": "Instellingen geïmporteerd"
+  },
+  "backupInvalid": {
+    "message": "Dit bestand is geen geldige Linkwash-back-up."
+  },
+  "resetSettings": {
+    "message": "Standaardinstellingen herstellen"
+  },
+  "resetSettingsDesc": {
+    "message": "Zet alle instellingen terug. Gepauzeerde sites en eigen parameters worden verwijderd."
+  },
+  "resetSettingsBtn": {
+    "message": "Herstellen"
+  },
+  "resetSettingsConfirm": {
+    "message": "Alle instellingen terugzetten naar de standaardwaarden? Je gepauzeerde sites en eigen parameters worden verwijderd."
+  },
+  "aboutTitle": {
+    "message": "Over"
+  },
+  "aboutVersion": {
+    "message": "Versie $1"
+  },
+  "aboutText": {
+    "message": "Linkwash verwijdert trackingparameters uit links nog voordat een pagina laadt. Het is gratis, open source en werkt volledig op je apparaat."
+  },
+  "aboutFactLocal": {
+    "message": "Geen account, geen servers, geen dataverzameling – alles blijft in je browser."
+  },
+  "aboutRules": {
+    "message": "$1 trackingparameters, met extra regels voor $2 populaire sites"
+  },
+  "aboutFactFree": {
+    "message": "Gratis en open source, zonder advertenties."
+  },
+  "aboutSource": {
+    "message": "Broncode"
+  },
+  "aboutPrivacy": {
+    "message": "Privacybeleid"
+  },
+  "aboutReport": {
+    "message": "Kapotte site melden"
+  }
+}

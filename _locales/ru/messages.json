@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – удаление трекеров из ссылок"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "Удаляет из ссылок параметры отслеживания вроде utm_source, fbclid и gclid. Быстро, приватно, бесплатно – без входа."
+  },
+  "actionTitle": {
+    "message": "Linkwash – очистка ссылок"
+  },
+  "commandCopy": {
+    "message": "Скопировать чистую ссылку на текущую страницу"
+  },
+  "brandTagline": {
+    "message": "Чистые ссылки. Ноль трекеров."
+  },
+  "statusProtected": {
+    "message": "Защищено"
+  },
+  "statusPaused": {
+    "message": "На паузе"
+  },
+  "statusSitePaused": {
+    "message": "На паузе для этого сайта"
+  },
+  "toggleProtection": {
+    "message": "Включить или выключить защиту"
+  },
+  "heroRemovedOnPage": {
+    "message": "Удалено трекеров на этой странице"
+  },
+  "heroNothingYet": {
+    "message": "На этой странице трекеров пока нет"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash не работает на страницах браузера"
+  },
+  "heroPaused": {
+    "message": "Защита приостановлена"
+  },
+  "moreCount": {
+    "message": "ещё $1"
+  },
+  "siteCleanToggle": {
+    "message": "Очищать ссылки на этом сайте"
+  },
+  "siteRulesFor": {
+    "message": "Действуют особые правила для $1"
+  },
+  "siteGeneralRules": {
+    "message": "Действует стандартная защита"
+  },
+  "siteIsPaused": {
+    "message": "Ссылки на этом сайте не очищаются"
+  },
+  "siteUnavailable": {
+    "message": "Страница браузера"
+  },
+  "statLinks": {
+    "message": "Очищено ссылок"
+  },
+  "statTrackers": {
+    "message": "Удалено трекеров"
+  },
+  "statRedirects": {
+    "message": "Пропущено редиректов"
+  },
+  "actionCopyClean": {
+    "message": "Копировать чистую ссылку"
+  },
+  "actionCopied": {
+    "message": "Скопировано!"
+  },
+  "actionSettings": {
+    "message": "Настройки"
+  },
+  "footerPrivacy": {
+    "message": "Работает офлайн · Без аккаунта · Без сбора данных"
+  },
+  "menuCopyCleanLink": {
+    "message": "Копировать чистую ссылку"
+  },
+  "menuOpenCleanLink": {
+    "message": "Открыть чистую ссылку в новой вкладке"
+  },
+  "menuCopyCleanPage": {
+    "message": "Копировать чистую ссылку на страницу"
+  },
+  "navOverview": {
+    "message": "Обзор"
+  },
+  "navProtection": {
+    "message": "Защита"
+  },
+  "navSites": {
+    "message": "Сайты на паузе"
+  },
+  "navCustom": {
+    "message": "Свои параметры"
+  },
+  "navTools": {
+    "message": "Очистка ссылок"
+  },
+  "navGeneral": {
+    "message": "Общие"
+  },
+  "navAbout": {
+    "message": "О расширении"
+  },
+  "welcomeTitle": {
+    "message": "Добро пожаловать в Linkwash"
+  },
+  "welcomeText": {
+    "message": "Вы под защитой. Теперь Linkwash удаляет трекеры из каждой ссылки, которую вы открываете. Ничего настраивать не нужно, аккаунт не требуется."
+  },
+  "welcomeDismiss": {
+    "message": "Понятно"
+  },
+  "overviewTitle": {
+    "message": "Обзор"
+  },
+  "overviewSubtitle": {
+    "message": "Что Linkwash сделал для вас с $1."
+  },
+  "topTrackers": {
+    "message": "Чаще всего удаляемые трекеры"
+  },
+  "topSites": {
+    "message": "Сайты с наибольшим числом трекеров"
+  },
+  "byCategory": {
+    "message": "По категориям"
+  },
+  "emptyStats": {
+    "message": "Пока ничего нет. Откройте ссылку с трекерами, и она появится здесь."
+  },
+  "resetStats": {
+    "message": "Сбросить статистику"
+  },
+  "resetStatsConfirm": {
+    "message": "Сбросить всю статистику? Это действие нельзя отменить."
+  },
+  "protectionTitle": {
+    "message": "Защита"
+  },
+  "protectionSubtitle": {
+    "message": "Выберите, какие виды трекеров удаляет Linkwash. Изменения применяются сразу."
+  },
+  "cat_marketing_name": {
+    "message": "Метки кампаний"
+  },
+  "cat_marketing_desc": {
+    "message": "UTM, Matomo и другие параметры кампаний, которые сообщают сайту, откуда вы пришли."
+  },
+  "cat_ads_name": {
+    "message": "ID рекламных кликов"
+  },
+  "cat_ads_desc": {
+    "message": "Идентификаторы кликов от Google, Meta, Microsoft, TikTok, X и других рекламных сетей."
+  },
+  "cat_email_name": {
+    "message": "Почта и рассылки"
+  },
+  "cat_email_desc": {
+    "message": "Коды отслеживания от Mailchimp, HubSpot, Marketo и других сервисов рассылок."
+  },
+  "cat_analytics_name": {
+    "message": "Аналитика"
+  },
+  "cat_analytics_desc": {
+    "message": "Межсайтовые идентификаторы аналитики от Google Analytics, Webtrekk, Piano и других."
+  },
+  "cat_social_name": {
+    "message": "Соцсети"
+  },
+  "cat_social_desc": {
+    "message": "Трекеры репостов и переходов в YouTube, Instagram, X, TikTok, Facebook, Reddit, LinkedIn, Spotify и других сервисах."
+  },
+  "cat_shopping_name": {
+    "message": "Покупки"
+  },
+  "cat_shopping_desc": {
+    "message": "Отслеживание на Amazon, eBay, AliExpress, Temu, Etsy, Booking.com и в других магазинах."
+  },
+  "cat_search_name": {
+    "message": "Поисковые системы"
+  },
+  "cat_search_desc": {
+    "message": "Трекеры сеансов и кликов в Google и Bing."
+  },
+  "cat_affiliate_name": {
+    "message": "Партнёрские метки"
+  },
+  "cat_affiliate_desc": {
+    "message": "Реферальные метки, за которые авторы получают комиссию. По умолчанию выключено, чтобы любимые авторы продолжали зарабатывать."
+  },
+  "cat_custom_name": {
+    "message": "Свои параметры"
+  },
+  "paramsCount": {
+    "message": "Параметров: $1"
+  },
+  "showParams": {
+    "message": "Показать параметры"
+  },
+  "hideParams": {
+    "message": "Скрыть параметры"
+  },
+  "globalParams": {
+    "message": "Все сайты"
+  },
+  "featuresTitle": {
+    "message": "Дополнительная защита"
+  },
+  "featUnwrapName": {
+    "message": "Пропускать страницы редиректа"
+  },
+  "featUnwrapDesc": {
+    "message": "Сразу открывает настоящий адрес обёрнутых ссылок из Google, Facebook, YouTube, Reddit и других сервисов, чтобы страница редиректа не могла записать ваш клик."
+  },
+  "featPingsName": {
+    "message": "Блокировать пинги кликов"
+  },
+  "featPingsDesc": {
+    "message": "Удаляет скрытые пинги, которые сообщают сайту, по какой ссылке вы нажали."
+  },
+  "featBadgeName": {
+    "message": "Показывать счётчик на значке"
+  },
+  "featBadgeDesc": {
+    "message": "Показывает, сколько трекеров удалено на текущей странице."
+  },
+  "sitesTitle": {
+    "message": "Сайты на паузе"
+  },
+  "sitesSubtitle": {
+    "message": "Linkwash не изменяет ссылки на этих сайтах. Добавьте сюда сайт, если он перестал правильно работать."
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "Добавить сайт"
+  },
+  "sitesEmpty": {
+    "message": "Нет сайтов на паузе. Linkwash очищает ссылки везде."
+  },
+  "sitesInvalid": {
+    "message": "Введите корректный домен, например example.com."
+  },
+  "remove": {
+    "message": "Удалить"
+  },
+  "customTitle": {
+    "message": "Свои параметры"
+  },
+  "customSubtitle": {
+    "message": "Добавьте параметры, которые Linkwash должен удалять на всех сайтах. Несколько названий разделяйте пробелами или запятыми."
+  },
+  "customPlaceholder": {
+    "message": "например, campaign_ref"
+  },
+  "customAdd": {
+    "message": "Добавить"
+  },
+  "customEmpty": {
+    "message": "Вы пока не добавили ни одного параметра."
+  },
+  "customInvalid": {
+    "message": "Названия параметров не могут содержать пробелы и символы & = # ?"
+  },
+  "customExists": {
+    "message": "Этот параметр уже есть в списке."
+  },
+  "toolsTitle": {
+    "message": "Очистка ссылок"
+  },
+  "toolsSubtitle": {
+    "message": "Вставьте ссылку, чтобы увидеть, какие трекеры удалит Linkwash, а затем скопируйте чистую версию."
+  },
+  "toolsPlaceholder": {
+    "message": "Вставьте ссылку сюда…"
+  },
+  "toolsResult": {
+    "message": "Чистая ссылка"
+  },
+  "toolsRemoved": {
+    "message": "Удалено"
+  },
+  "toolsNone": {
+    "message": "Эта ссылка уже чистая."
+  },
+  "toolsInvalid": {
+    "message": "Это не похоже на веб-ссылку (http или https)."
+  },
+  "toolsCopy": {
+    "message": "Копировать"
+  },
+  "toolsUnwrapped": {
+    "message": "Редирект пропущен"
+  },
+  "toastCopied": {
+    "message": "Чистая ссылка скопирована"
+  },
+  "shortcutTitle": {
+    "message": "Сочетание клавиш"
+  },
+  "shortcutDesc": {
+    "message": "Нажмите $1 на любой странице, чтобы скопировать её чистую ссылку."
+  },
+  "shortcutNone": {
+    "message": "Сочетание клавиш не задано. Его можно выбрать в настройках быстрых клавиш Chrome."
+  },
+  "shortcutChange": {
+    "message": "Изменить"
+  },
+  "generalTitle": {
+    "message": "Общие"
+  },
+  "languageLabel": {
+    "message": "Язык"
+  },
+  "languageAuto": {
+    "message": "Язык браузера"
+  },
+  "themeLabel": {
+    "message": "Тема"
+  },
+  "themeAuto": {
+    "message": "Системная"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "backupTitle": {
+    "message": "Резервная копия настроек"
+  },
+  "backupDesc": {
+    "message": "Сохраните настройки в файл или загрузите их на другом компьютере."
+  },
+  "backupExport": {
+    "message": "Экспорт"
+  },
+  "backupImport": {
+    "message": "Импорт"
+  },
+  "backupImported": {
+    "message": "Настройки импортированы"
+  },
+  "backupInvalid": {
+    "message": "Этот файл не является резервной копией Linkwash."
+  },
+  "resetSettings": {
+    "message": "Настройки по умолчанию"
+  },
+  "resetSettingsDesc": {
+    "message": "Сбрасывает все настройки. Сайты на паузе и свои параметры будут удалены."
+  },
+  "resetSettingsBtn": {
+    "message": "Сбросить"
+  },
+  "resetSettingsConfirm": {
+    "message": "Вернуть все настройки по умолчанию? Сайты на паузе и ваши параметры будут удалены."
+  },
+  "aboutTitle": {
+    "message": "О расширении"
+  },
+  "aboutVersion": {
+    "message": "Версия $1"
+  },
+  "aboutText": {
+    "message": "Linkwash удаляет параметры отслеживания из ссылок ещё до загрузки страницы. Расширение бесплатное, с открытым исходным кодом и работает полностью на вашем устройстве."
+  },
+  "aboutFactLocal": {
+    "message": "Без аккаунта, серверов и сбора данных – всё остаётся в вашем браузере."
+  },
+  "aboutRules": {
+    "message": "Параметров отслеживания: $1, особые правила для популярных сайтов: $2"
+  },
+  "aboutFactFree": {
+    "message": "Бесплатно, с открытым исходным кодом и без рекламы."
+  },
+  "aboutSource": {
+    "message": "Исходный код"
+  },
+  "aboutPrivacy": {
+    "message": "Политика конфиденциальности"
+  },
+  "aboutReport": {
+    "message": "Сообщить о неработающем сайте"
+  }
+}

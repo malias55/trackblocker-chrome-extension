@@ -1,0 +1,398 @@
+{
+  "extName": {
+    "message": "Linkwash – リンクからトラッカーを除去"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "utm_source、fbclid、gclid などのトラッキングパラメータをすべてのリンクから削除。高速・プライベート・無料で、ログインも不要です。"
+  },
+  "actionTitle": {
+    "message": "Linkwash – リンクをクリーンに"
+  },
+  "commandCopy": {
+    "message": "現在のページのクリーンなリンクをコピー"
+  },
+  "brandTagline": {
+    "message": "クリーンなリンク。トラッカーはゼロ。"
+  },
+  "statusProtected": {
+    "message": "保護中"
+  },
+  "statusPaused": {
+    "message": "一時停止中"
+  },
+  "statusSitePaused": {
+    "message": "このサイトでは一時停止中"
+  },
+  "toggleProtection": {
+    "message": "保護のオン／オフを切り替え"
+  },
+  "heroRemovedOnPage": {
+    "message": "このページで削除したトラッカー"
+  },
+  "heroNothingYet": {
+    "message": "このページではまだトラッカーは見つかっていません"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash はブラウザのページでは動作しません"
+  },
+  "heroPaused": {
+    "message": "保護は一時停止中です"
+  },
+  "moreCount": {
+    "message": "他 $1 件"
+  },
+  "siteCleanToggle": {
+    "message": "このサイトのリンクをクリーンにする"
+  },
+  "siteRulesFor": {
+    "message": "$1 用の追加ルールが有効"
+  },
+  "siteGeneralRules": {
+    "message": "標準の保護が有効"
+  },
+  "siteIsPaused": {
+    "message": "このサイトのリンクはクリーンにされません"
+  },
+  "siteUnavailable": {
+    "message": "ブラウザのページ"
+  },
+  "statLinks": {
+    "message": "処理済みリンク"
+  },
+  "statTrackers": {
+    "message": "削除したトラッカー"
+  },
+  "statRedirects": {
+    "message": "回避したリダイレクト"
+  },
+  "actionCopyClean": {
+    "message": "クリーンなリンクをコピー"
+  },
+  "actionCopied": {
+    "message": "コピーしました"
+  },
+  "actionSettings": {
+    "message": "設定"
+  },
+  "footerPrivacy": {
+    "message": "オフラインで動作 · アカウント不要 · データ収集なし"
+  },
+  "menuCopyCleanLink": {
+    "message": "クリーンなリンクをコピー"
+  },
+  "menuOpenCleanLink": {
+    "message": "クリーンなリンクを新しいタブで開く"
+  },
+  "menuCopyCleanPage": {
+    "message": "このページのクリーンなリンクをコピー"
+  },
+  "navOverview": {
+    "message": "概要"
+  },
+  "navProtection": {
+    "message": "保護"
+  },
+  "navSites": {
+    "message": "一時停止中のサイト"
+  },
+  "navCustom": {
+    "message": "独自のパラメータ"
+  },
+  "navTools": {
+    "message": "リンククリーナー"
+  },
+  "navGeneral": {
+    "message": "一般"
+  },
+  "navAbout": {
+    "message": "情報"
+  },
+  "welcomeTitle": {
+    "message": "Linkwash へようこそ"
+  },
+  "welcomeText": {
+    "message": "保護が有効になりました。これからは、開くすべてのリンクから Linkwash がトラッカーを削除します。設定は不要で、アカウントも必要ありません。"
+  },
+  "welcomeDismiss": {
+    "message": "OK"
+  },
+  "overviewTitle": {
+    "message": "概要"
+  },
+  "overviewSubtitle": {
+    "message": "$1 以降に Linkwash が行ったこと。"
+  },
+  "topTrackers": {
+    "message": "よく削除されたトラッカー"
+  },
+  "topSites": {
+    "message": "トラッカーが多いサイト"
+  },
+  "byCategory": {
+    "message": "カテゴリ別"
+  },
+  "emptyStats": {
+    "message": "まだ何もありません。トラッカー付きのリンクを開くと、ここに表示されます。"
+  },
+  "resetStats": {
+    "message": "統計をリセット"
+  },
+  "resetStatsConfirm": {
+    "message": "すべての統計をリセットしますか？この操作は元に戻せません。"
+  },
+  "protectionTitle": {
+    "message": "保護"
+  },
+  "protectionSubtitle": {
+    "message": "Linkwash が削除するトラッカーの種類を選択します。変更はすぐに適用されます。"
+  },
+  "cat_marketing_name": {
+    "message": "キャンペーンタグ"
+  },
+  "cat_marketing_desc": {
+    "message": "UTM、Matomo など、どこから来たかをサイトに伝えるキャンペーンパラメータ。"
+  },
+  "cat_ads_name": {
+    "message": "広告クリック ID"
+  },
+  "cat_ads_desc": {
+    "message": "Google、Meta、Microsoft、TikTok、X などの広告ネットワークのクリック識別子。"
+  },
+  "cat_email_name": {
+    "message": "メールとニュースレター"
+  },
+  "cat_email_desc": {
+    "message": "Mailchimp、HubSpot、Marketo などのメールツールのトラッキングコード。"
+  },
+  "cat_analytics_name": {
+    "message": "アナリティクス"
+  },
+  "cat_analytics_desc": {
+    "message": "Google Analytics、Webtrekk、Piano などのクロスサイト分析 ID。"
+  },
+  "cat_social_name": {
+    "message": "ソーシャルメディア"
+  },
+  "cat_social_desc": {
+    "message": "YouTube、Instagram、X、TikTok、Facebook、Reddit、LinkedIn、Spotify などの共有・紹介トラッカー。"
+  },
+  "cat_shopping_name": {
+    "message": "ショッピング"
+  },
+  "cat_shopping_desc": {
+    "message": "Amazon、eBay、AliExpress、Temu、Etsy、Booking.com などのショップでのトラッキング。"
+  },
+  "cat_search_name": {
+    "message": "検索エンジン"
+  },
+  "cat_search_desc": {
+    "message": "Google と Bing のセッション・クリックトラッカー。"
+  },
+  "cat_affiliate_name": {
+    "message": "アフィリエイトタグ"
+  },
+  "cat_affiliate_desc": {
+    "message": "クリエイターに報酬が入る紹介タグ。好きなクリエイターが報酬を受け取れるよう、デフォルトではオフです。"
+  },
+  "cat_custom_name": {
+    "message": "独自のパラメータ"
+  },
+  "paramsCount": {
+    "message": "$1 個のパラメータ"
+  },
+  "showParams": {
+    "message": "パラメータを表示"
+  },
+  "hideParams": {
+    "message": "パラメータを隠す"
+  },
+  "globalParams": {
+    "message": "すべてのサイト"
+  },
+  "featuresTitle": {
+    "message": "追加の保護"
+  },
+  "featUnwrapName": {
+    "message": "リダイレクトページをスキップ"
+  },
+  "featUnwrapDesc": {
+    "message": "Google、Facebook、YouTube、Reddit などのラップされたリンクの本来の移動先を直接開き、リダイレクトページにクリックを記録させません。"
+  },
+  "featPingsName": {
+    "message": "クリック ping をブロック"
+  },
+  "featPingsDesc": {
+    "message": "どのリンクをクリックしたかをサイトに伝える隠れた ping を削除します。"
+  },
+  "featBadgeName": {
+    "message": "アイコンにカウンターを表示"
+  },
+  "featBadgeDesc": {
+    "message": "現在のページで削除したトラッカーの数を表示します。"
+  },
+  "sitesTitle": {
+    "message": "一時停止中のサイト"
+  },
+  "sitesSubtitle": {
+    "message": "Linkwash はこれらのサイトのリンクを変更しません。正しく動作しなくなったサイトはここに追加してください。"
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "サイトを追加"
+  },
+  "sitesEmpty": {
+    "message": "一時停止中のサイトはありません。Linkwash はすべてのサイトでリンクをクリーンにします。"
+  },
+  "sitesInvalid": {
+    "message": "有効なドメインを入力してください（例: example.com）。"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "customTitle": {
+    "message": "独自のパラメータ"
+  },
+  "customSubtitle": {
+    "message": "Linkwash がすべてのサイトで削除するパラメータを追加します。複数の名前はスペースかカンマで区切ってください。"
+  },
+  "customPlaceholder": {
+    "message": "例: campaign_ref"
+  },
+  "customAdd": {
+    "message": "追加"
+  },
+  "customEmpty": {
+    "message": "まだパラメータを追加していません。"
+  },
+  "customInvalid": {
+    "message": "パラメータ名にスペースや & = # ? の文字は使えません"
+  },
+  "customExists": {
+    "message": "このパラメータはすでにリストにあります。"
+  },
+  "toolsTitle": {
+    "message": "リンククリーナー"
+  },
+  "toolsSubtitle": {
+    "message": "リンクを貼り付けると、Linkwash が削除するトラッカーを確認できます。あとはクリーンなリンクをコピーするだけです。"
+  },
+  "toolsPlaceholder": {
+    "message": "ここにリンクを貼り付け…"
+  },
+  "toolsResult": {
+    "message": "クリーンなリンク"
+  },
+  "toolsRemoved": {
+    "message": "削除済み"
+  },
+  "toolsNone": {
+    "message": "このリンクはすでにクリーンです。"
+  },
+  "toolsInvalid": {
+    "message": "Web リンク（http または https）ではないようです。"
+  },
+  "toolsCopy": {
+    "message": "コピー"
+  },
+  "toolsUnwrapped": {
+    "message": "リダイレクトを回避"
+  },
+  "toastCopied": {
+    "message": "クリーンなリンクをコピーしました"
+  },
+  "shortcutTitle": {
+    "message": "キーボードショートカット"
+  },
+  "shortcutDesc": {
+    "message": "どのページでも $1 を押すと、クリーンなリンクをコピーできます。"
+  },
+  "shortcutNone": {
+    "message": "ショートカットが設定されていません。Chrome のショートカット設定で選択できます。"
+  },
+  "shortcutChange": {
+    "message": "変更"
+  },
+  "generalTitle": {
+    "message": "一般"
+  },
+  "languageLabel": {
+    "message": "言語"
+  },
+  "languageAuto": {
+    "message": "ブラウザの言語"
+  },
+  "themeLabel": {
+    "message": "外観"
+  },
+  "themeAuto": {
+    "message": "システム"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "backupTitle": {
+    "message": "設定のバックアップ"
+  },
+  "backupDesc": {
+    "message": "設定をファイルに保存したり、別のパソコンで読み込んだりできます。"
+  },
+  "backupExport": {
+    "message": "エクスポート"
+  },
+  "backupImport": {
+    "message": "インポート"
+  },
+  "backupImported": {
+    "message": "設定をインポートしました"
+  },
+  "backupInvalid": {
+    "message": "このファイルは有効な Linkwash のバックアップではありません。"
+  },
+  "resetSettings": {
+    "message": "初期設定に戻す"
+  },
+  "resetSettingsDesc": {
+    "message": "すべての設定をリセットします。一時停止中のサイトと独自のパラメータは削除されます。"
+  },
+  "resetSettingsBtn": {
+    "message": "リセット"
+  },
+  "resetSettingsConfirm": {
+    "message": "すべての設定を初期状態に戻しますか？一時停止中のサイトと独自のパラメータは削除されます。"
+  },
+  "aboutTitle": {
+    "message": "情報"
+  },
+  "aboutVersion": {
+    "message": "バージョン $1"
+  },
+  "aboutText": {
+    "message": "Linkwash はページが読み込まれる前にリンクからトラッキングパラメータを削除します。無料のオープンソースで、すべてお使いのデバイス上で動作します。"
+  },
+  "aboutFactLocal": {
+    "message": "アカウントもサーバーもデータ収集もなし – すべてがブラウザ内で完結します。"
+  },
+  "aboutRules": {
+    "message": "$1 個のトラッキングパラメータと、人気サイト $2 件向けの追加ルール"
+  },
+  "aboutFactFree": {
+    "message": "無料のオープンソースで、広告もありません。"
+  },
+  "aboutSource": {
+    "message": "ソースコード"
+  },
+  "aboutPrivacy": {
+    "message": "プライバシーポリシー"
+  },
+  "aboutReport": {
+    "message": "正しく動作しないサイトを報告"
+  }
+}

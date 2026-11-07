@@ -1,0 +1,40 @@
+name: Release
+# Push a tag like v1.0.1 to build the zip, attach it to a GitHub release and,
+# if the Chrome Web Store secrets are set, upload and publish it.
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      CWS_EXTENSION_ID: ${{ secrets.CWS_EXTENSION_ID }}
+      CWS_CLIENT_ID: ${{ secrets.CWS_CLIENT_ID }}
+      CWS_CLIENT_SECRET: ${{ secrets.CWS_CLIENT_SECRET }}
+      CWS_REFRESH_TOKEN: ${{ secrets.CWS_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run package
+      - name: GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" dist/*.zip --title "Linkwash $GITHUB_REF_NAME" --generate-notes
+      - name: Publish to the Chrome Web Store
+        if: ${{ env.CWS_CLIENT_ID != '' }}
+        run: >
+          npx --yes chrome-webstore-upload-cli@3 upload --auto-publish
+          --source dist/*.zip
+          --extension-id "$CWS_EXTENSION_ID"
+          --client-id "$CWS_CLIENT_ID"
+          --client-secret "$CWS_CLIENT_SECRET"
+          --refresh-token "$CWS_REFRESH_TOKEN"

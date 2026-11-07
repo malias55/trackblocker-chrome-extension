@@ -1,0 +1,404 @@
+{
+  "extName": {
+    "message": "Linkwash – Tracker Remover for Clean Links",
+    "description": "Extension name in the Chrome Web Store (max 75 chars)"
+  },
+  "extShortName": {
+    "message": "Linkwash"
+  },
+  "extDescription": {
+    "message": "Removes tracking parameters like utm_source, fbclid and gclid from every link. Fast, private, free – no login needed.",
+    "description": "Max 132 characters"
+  },
+  "actionTitle": {
+    "message": "Linkwash – clean links"
+  },
+  "commandCopy": {
+    "message": "Copy a clean link of the current page"
+  },
+  "brandTagline": {
+    "message": "Clean links. Zero trackers."
+  },
+  "statusProtected": {
+    "message": "Protected"
+  },
+  "statusPaused": {
+    "message": "Paused"
+  },
+  "statusSitePaused": {
+    "message": "Paused on this site"
+  },
+  "toggleProtection": {
+    "message": "Turn protection on or off"
+  },
+  "heroRemovedOnPage": {
+    "message": "trackers removed on this page"
+  },
+  "heroNothingYet": {
+    "message": "No trackers on this page so far"
+  },
+  "heroUnavailable": {
+    "message": "Linkwash doesn't work on browser pages"
+  },
+  "heroPaused": {
+    "message": "Protection is paused"
+  },
+  "moreCount": {
+    "message": "+$1 more"
+  },
+  "siteCleanToggle": {
+    "message": "Clean links on this site"
+  },
+  "siteRulesFor": {
+    "message": "Extra rules for $1 active",
+    "description": "$1 is a site name such as Amazon"
+  },
+  "siteGeneralRules": {
+    "message": "Standard protection active"
+  },
+  "siteIsPaused": {
+    "message": "Links on this site aren't cleaned"
+  },
+  "siteUnavailable": {
+    "message": "Browser page"
+  },
+  "statLinks": {
+    "message": "Links cleaned"
+  },
+  "statTrackers": {
+    "message": "Trackers removed"
+  },
+  "statRedirects": {
+    "message": "Redirects skipped"
+  },
+  "actionCopyClean": {
+    "message": "Copy clean link"
+  },
+  "actionCopied": {
+    "message": "Copied!"
+  },
+  "actionSettings": {
+    "message": "Settings"
+  },
+  "footerPrivacy": {
+    "message": "Works offline · No account · No data collection"
+  },
+  "menuCopyCleanLink": {
+    "message": "Copy clean link"
+  },
+  "menuOpenCleanLink": {
+    "message": "Open clean link in new tab"
+  },
+  "menuCopyCleanPage": {
+    "message": "Copy clean link of this page"
+  },
+  "navOverview": {
+    "message": "Overview"
+  },
+  "navProtection": {
+    "message": "Protection"
+  },
+  "navSites": {
+    "message": "Paused sites"
+  },
+  "navCustom": {
+    "message": "Own parameters"
+  },
+  "navTools": {
+    "message": "Link cleaner"
+  },
+  "navGeneral": {
+    "message": "General"
+  },
+  "navAbout": {
+    "message": "About"
+  },
+  "welcomeTitle": {
+    "message": "Welcome to Linkwash"
+  },
+  "welcomeText": {
+    "message": "You're protected. From now on Linkwash removes trackers from every link you open. There's nothing to set up and you don't need an account."
+  },
+  "welcomeDismiss": {
+    "message": "Got it"
+  },
+  "overviewTitle": {
+    "message": "Overview"
+  },
+  "overviewSubtitle": {
+    "message": "What Linkwash has done for you since $1.",
+    "description": "$1 is a date"
+  },
+  "topTrackers": {
+    "message": "Most removed trackers"
+  },
+  "topSites": {
+    "message": "Sites with the most trackers"
+  },
+  "byCategory": {
+    "message": "By category"
+  },
+  "emptyStats": {
+    "message": "Nothing yet. Open a link with trackers and it will show up here."
+  },
+  "resetStats": {
+    "message": "Reset statistics"
+  },
+  "resetStatsConfirm": {
+    "message": "Reset all statistics? This can't be undone."
+  },
+  "protectionTitle": {
+    "message": "Protection"
+  },
+  "protectionSubtitle": {
+    "message": "Choose which kinds of trackers Linkwash removes. Changes apply immediately."
+  },
+  "cat_marketing_name": {
+    "message": "Campaign tags"
+  },
+  "cat_marketing_desc": {
+    "message": "UTM, Matomo and other campaign parameters that tell a site where you came from."
+  },
+  "cat_ads_name": {
+    "message": "Ad click IDs"
+  },
+  "cat_ads_desc": {
+    "message": "Click identifiers from Google, Meta, Microsoft, TikTok, X and other ad networks."
+  },
+  "cat_email_name": {
+    "message": "Email & newsletters"
+  },
+  "cat_email_desc": {
+    "message": "Tracking codes from Mailchimp, HubSpot, Marketo and other email tools."
+  },
+  "cat_analytics_name": {
+    "message": "Analytics"
+  },
+  "cat_analytics_desc": {
+    "message": "Cross-site analytics IDs from Google Analytics, Webtrekk, Piano and others."
+  },
+  "cat_social_name": {
+    "message": "Social media"
+  },
+  "cat_social_desc": {
+    "message": "Share and referral trackers on YouTube, Instagram, X, TikTok, Facebook, Reddit, LinkedIn, Spotify and more."
+  },
+  "cat_shopping_name": {
+    "message": "Shopping"
+  },
+  "cat_shopping_desc": {
+    "message": "Tracking on Amazon, eBay, AliExpress, Temu, Etsy, Booking.com and other shops."
+  },
+  "cat_search_name": {
+    "message": "Search engines"
+  },
+  "cat_search_desc": {
+    "message": "Session and click trackers on Google and Bing."
+  },
+  "cat_affiliate_name": {
+    "message": "Affiliate tags"
+  },
+  "cat_affiliate_desc": {
+    "message": "Referral tags that earn creators a commission. Off by default, so the creators you like still get paid."
+  },
+  "cat_custom_name": {
+    "message": "Own parameters"
+  },
+  "paramsCount": {
+    "message": "$1 parameters"
+  },
+  "showParams": {
+    "message": "Show parameters"
+  },
+  "hideParams": {
+    "message": "Hide parameters"
+  },
+  "globalParams": {
+    "message": "All websites"
+  },
+  "featuresTitle": {
+    "message": "Extra protection"
+  },
+  "featUnwrapName": {
+    "message": "Skip redirect pages"
+  },
+  "featUnwrapDesc": {
+    "message": "Opens the real destination of wrapped links from Google, Facebook, YouTube, Reddit and others directly, so the redirect page can't log your click."
+  },
+  "featPingsName": {
+    "message": "Block click pings"
+  },
+  "featPingsDesc": {
+    "message": "Removes hidden pings that tell a website which link you clicked."
+  },
+  "featBadgeName": {
+    "message": "Show counter on the icon"
+  },
+  "featBadgeDesc": {
+    "message": "Shows how many trackers were removed on the current page."
+  },
+  "sitesTitle": {
+    "message": "Paused sites"
+  },
+  "sitesSubtitle": {
+    "message": "Linkwash doesn't change links on these sites. Add a site here if it stops working correctly."
+  },
+  "sitesPlaceholder": {
+    "message": "example.com"
+  },
+  "sitesAdd": {
+    "message": "Add site"
+  },
+  "sitesEmpty": {
+    "message": "No paused sites. Linkwash cleans links everywhere."
+  },
+  "sitesInvalid": {
+    "message": "Enter a valid domain, for example example.com."
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "customTitle": {
+    "message": "Own parameters"
+  },
+  "customSubtitle": {
+    "message": "Add parameters that Linkwash should remove on every website. Separate several names with spaces or commas."
+  },
+  "customPlaceholder": {
+    "message": "e.g. campaign_ref"
+  },
+  "customAdd": {
+    "message": "Add"
+  },
+  "customEmpty": {
+    "message": "You haven't added any parameters yet."
+  },
+  "customInvalid": {
+    "message": "Parameter names can't contain spaces or the characters & = # ?"
+  },
+  "customExists": {
+    "message": "This parameter is already on the list."
+  },
+  "toolsTitle": {
+    "message": "Link cleaner"
+  },
+  "toolsSubtitle": {
+    "message": "Paste a link to see which trackers Linkwash removes, then copy the clean version."
+  },
+  "toolsPlaceholder": {
+    "message": "Paste a link here…"
+  },
+  "toolsResult": {
+    "message": "Clean link"
+  },
+  "toolsRemoved": {
+    "message": "Removed"
+  },
+  "toolsNone": {
+    "message": "This link is already clean."
+  },
+  "toolsInvalid": {
+    "message": "This doesn't look like a web link (http or https)."
+  },
+  "toolsCopy": {
+    "message": "Copy"
+  },
+  "toolsUnwrapped": {
+    "message": "Redirect skipped"
+  },
+  "toastCopied": {
+    "message": "Clean link copied"
+  },
+  "shortcutTitle": {
+    "message": "Keyboard shortcut"
+  },
+  "shortcutDesc": {
+    "message": "Press $1 on any page to copy its clean link.",
+    "description": "$1 is a key combination such as Alt+Shift+C"
+  },
+  "shortcutNone": {
+    "message": "No shortcut set. You can choose one in Chrome's shortcut settings."
+  },
+  "shortcutChange": {
+    "message": "Change"
+  },
+  "generalTitle": {
+    "message": "General"
+  },
+  "languageLabel": {
+    "message": "Language"
+  },
+  "languageAuto": {
+    "message": "Browser language"
+  },
+  "themeLabel": {
+    "message": "Appearance"
+  },
+  "themeAuto": {
+    "message": "System"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "backupTitle": {
+    "message": "Back up settings"
+  },
+  "backupDesc": {
+    "message": "Save your settings to a file or load them on another computer."
+  },
+  "backupExport": {
+    "message": "Export"
+  },
+  "backupImport": {
+    "message": "Import"
+  },
+  "backupImported": {
+    "message": "Settings imported"
+  },
+  "backupInvalid": {
+    "message": "This file isn't a valid Linkwash backup."
+  },
+  "resetSettings": {
+    "message": "Restore defaults"
+  },
+  "resetSettingsDesc": {
+    "message": "Resets all settings. Paused sites and own parameters are removed."
+  },
+  "resetSettingsBtn": {
+    "message": "Restore"
+  },
+  "resetSettingsConfirm": {
+    "message": "Restore all settings to their defaults? Your paused sites and own parameters will be removed."
+  },
+  "aboutTitle": {
+    "message": "About"
+  },
+  "aboutVersion": {
+    "message": "Version $1"
+  },
+  "aboutText": {
+    "message": "Linkwash removes tracking parameters from links before a page even loads. It's free, open source and works entirely on your device."
+  },
+  "aboutFactLocal": {
+    "message": "No account, no servers, no data collection – everything stays in your browser."
+  },
+  "aboutRules": {
+    "message": "$1 tracking parameters, with extra rules for $2 popular sites",
+    "description": "$1 and $2 are numbers"
+  },
+  "aboutFactFree": {
+    "message": "Free and open source, without ads."
+  },
+  "aboutSource": {
+    "message": "Source code"
+  },
+  "aboutPrivacy": {
+    "message": "Privacy policy"
+  },
+  "aboutReport": {
+    "message": "Report a broken site"
+  }
+}

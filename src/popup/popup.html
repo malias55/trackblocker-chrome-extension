@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Linkwash</title>
+    <link rel="stylesheet" href="../ui/base.css">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body class="loading">
+    <header class="top">
+      <div class="brand">
+        <div class="logo"><i data-icon="logo"></i></div>
+        <div class="brand-text">
+          <div class="wordmark">Linkwash</div>
+          <span class="pill" id="status" data-i18n="statusProtected">Protected</span>
+        </div>
+      </div>
+      <label class="switch lg" data-i18n-title="toggleProtection">
+        <input type="checkbox" id="master" data-i18n-aria-label="toggleProtection">
+        <span class="track"></span>
+      </label>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-row">
+          <div class="hero-count" id="tabCount" data-value="0">0</div>
+          <div class="hero-shield"><i data-icon="shield" data-size="28"></i></div>
+        </div>
+        <div class="hero-label" id="heroLabel" data-i18n="heroRemovedOnPage">trackers removed on this page</div>
+        <div class="chips" id="chips"></div>
+      </section>
+
+      <section class="site card" id="site">
+        <img class="favicon" id="favicon" alt="" width="20" height="20">
+        <div class="site-text">
+          <div class="site-host" id="siteHost">—</div>
+          <div class="site-sub" id="siteSub"></div>
+        </div>
+        <label class="switch" data-i18n-title="siteCleanToggle">
+          <input type="checkbox" id="siteToggle" data-i18n-aria-label="siteCleanToggle">
+          <span class="track"></span>
+        </label>
+      </section>
+
+      <section class="stats">
+        <div class="stat">
+          <div class="stat-value" id="statLinks" data-value="0">0</div>
+          <div class="stat-label" data-i18n="statLinks">Links cleaned</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="statParams" data-value="0">0</div>
+          <div class="stat-label" data-i18n="statTrackers">Trackers removed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="statRedirects" data-value="0">0</div>
+          <div class="stat-label" data-i18n="statRedirects">Redirects skipped</div>
+        </div>
+      </section>
+
+      <div class="actions">
+        <button class="btn primary" id="copy"><i data-icon="copy"></i><span data-i18n="actionCopyClean">Copy clean link</span></button>
+        <button class="btn icon-only" id="settings" data-i18n-title="actionSettings" data-i18n-aria-label="actionSettings"><i data-icon="settings"></i></button>
+      </div>
+    </main>
+
+    <footer class="foot">
+      <i data-icon="lock" data-size="13"></i>
+      <span data-i18n="footerPrivacy">Works offline · No account · No data collection</span>
+    </footer>
+
+    <script src="../shared/rules.js"></script>
+    <script src="../shared/engine.js"></script>
+    <script src="../shared/i18n.js"></script>
+    <script src="../ui/icons.js"></script>
+    <script src="../ui/common.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
